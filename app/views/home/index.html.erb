@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+    <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">    
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Rancho&effect=3d');
+    </style>
+
+  </head>
+  <body>
+    <!--banner-->
+    <section id="banner">
+      <!--<div class="bg-color">-->
+      	
+        <header id="header">
+
+            <div class="container">
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#about">Presentación</a>
+                  <a href="#event">Encuentros</a>
+                  <a href="#menu-list">¿Quiero Entrenar?</a>
+                  <a href="#gallery">Galería</a>
+                </div>
+                <!-- Use any element to open the sidenav -->
+                <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+            </div>
+        </header>
+        <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <div class="font-effect-3d">
+                <h1 class="logo-name">DISTRITO RUGBY</h1>
+            </div>
+            <h2>¡La Moral se levanta!</h2>
+            <img class="img-responsive">
+                <%= image_tag 'Logo_D13_2017.png', :width=>150, :heigth=>150%>
+            </img>
+            <p>Rugby Infantil</p>
+          </div>
+        </div>
+        </div>
+      <!--</div>-->
+    </section>
+    <!-- / banner -->
+    <!--about-->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Distrito 13 Rugby</h1>
+                    <p class="header-p">Es el lugar donde niños, niñas, adolescentes y jóvenes se reunen para conocer y empezar a
+                    <br>practicar rugby como alternativa de estilo de vida diferente. </p>
+                </div>                
+                <div class="col-md-10">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="about-info">
+                            <h2 class="heading">Rugby, un deporte de impacto</h2>
+                            <p>El rugby es un juego de disputa territorial en el que el contacto físico juega un papel importante. En D-13 nos preparamos física y mentalmente para estar activos tanto dentro como por fuera de la cancha. Aquí podrás:</p>
+                            <div class="details-list">
+                                <ul>
+                                    <li><i class="fa fa-check"></i>Conocer nuevos amigos y amigas</li>
+                                    <li><i class="fa fa-check"></i>Prepararte físicamente y mental</li>
+                                    <li><i class="fa fa-check"></i>Descubrir habilidades que creías no tener o que no eras capaz de lograr.</li>
+                                    <li><i class="fa fa-check"></i>Divertirte jugando al rugby</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img class="img-responsive">
+                        <%= image_tag 'D13_2016-estadio1.jpg', :width=>500, :heigth=>500%>
+                        </img>
+                        <!--<img src="img/res01.jpg" alt="" class="img-responsive">-->
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!--/about-->
+    <!-- event -->
+    <section id="event">
+        <div class="bg-color" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center" style="padding:60px;">
+                      <h1 class="header-h">Próximos encuentros</h1>                      
+                    </div>
+                    <div class="col-md-12" style="padding-bottom:30px;">
+                        <div class="item active left">
+                          <div class="col-md-6 col-sm-6 left-images">
+                           <img alt="">
+                           <%= image_tag 'Rugby_Infantil_19-08-2017.png'%> 
+                           </img>
+                           <!--<img src="images/res02.jpg" class="img-responsive">-->
+                         </div>
+                         <div class="col-md-6 col-sm-6 details-text">
+                          <div class="content-holder">
+                            <h2>Encuentro de Rugby Infantil y Juvenil</h2>
+                            <p>El próximo sábado tendremos una tarde en familia junto a nuestro club Phalanx RC</p>
+                            <address>
+                              <strong>Lugar: </strong>
+                              Cancha del Limonar
+                              <br>
+                              <strong>Hora: </strong>
+                              03:00pm
+                            </address>
+                            <a class="btn btn-imfo btn-read-more" href="#">Otros Eventos</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ event -->
+    <!-- menu -->
+    <section id="menu-list" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">Empieza a Entrenar</h1>
+                    <p class="header-p">Si quieres probar de que se trata el rugby empieza a entrenar ya ¿Qué esperas?
+                    <br>Niños y Niñas de 6 a 12 años</p>
+                </div>
+                <div class="col-md-7">
+                    <!-- Embedded Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1502488130242!6m8!1m7!1svRYDn4Pgvfwejqr6hyqgNQ!2m2!1d3.432571539708328!2d-76.49089238125921!3f64.51319878522419!4f10.091246087183478!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                                       
+                </div>
+                <div class="col-md-5">
+                    <h2 class="heading">¿Donde y Cuando Puedo Empezar?</h2>
+                    <ul>
+                        <li>
+                            <i class="fa fa-home fa-2x"> </i>
+                            Calle 72f con Carrera 26c - Urb. El Laguito <br></br>
+                        </li>
+                        <li>
+                            <i class="fa fa-calendar fa-2x"> </i>
+                            Martes y Jueves (fin de semana de integración) <br></br>
+                        </li>
+                        <li>
+                           <i class="fa fa-clock-o fa-2x"> </i>
+                           6:00pm - 8:00pm <br></br>
+                        </li>
+                        <li>
+                            <i class="fa fa-thumbs-up fa-2x"></i>
+                            No olvides con que hidratar!
+                        </li>
+                    </ul>
+                </div>
+                <!--<div class="col-md-12  text-center gallery-trigger">
+                    <ul>
+                        <li><a class="filter" data-filter="all">Menores de 10</a></li>
+                        <li><a class="filter" data-filter=".category-1">Menores de 14</a></li>
+                        <li><a class="filter" data-filter=".category-2">Menores de 18</a></li>                        
+                    </ul>
+                </div>-->                
+            </div>
+        </div>
+    </section>
+    <!--/ menu -->
+    
+    <!-- Galeria -->
+    <section class="gallery" id="gallery">
+        <div class="bg-color">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="header-h">Momentos</h1>
+                <p class="header-p">Estos son algunos de los instantes captados en nuestras prácticas, juegos y demás actividades</p>
+            </div>
+
+            <articles class="row">
+                <article class="col-md-3">                    
+                    <a href="#Festival_Estadio_2016" data-lightbox="example-set" data-tittle="Festival_Estadio">
+                    <img alt="" class="img-thumbnail">
+                        <%= image_tag 'D13_2016-estadio1.jpg', :width=>300, :heigth=>300%>
+                    </img></a>
+                    <p class="text-center">Festival en el Estadio Pascual Guerrero</p>
+                </article>
+            </articles>
+        </div>
+
+        <!--<div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="header-h">Momentos</h1>
+                    <p class="header-p">Estos son algunos de los instantes captados en nuestras prácticas, juegos y demás actividades</p>
+                </div>                
+            </div>
+
+            <div id="grid-gallery" class="grid-gallery">
+                <section class="grid-wrap">
+                    <ul class="grid">                        
+                        <li class="grid-sizer"></li>
+                        <li>
+                            <figure>
+                                <img src="DistritoRugby/app/assets/images/D13_2016-estadio1.jpg" alt=""/>
+                                    <!--<%= image_tag 'D13_2016-estadio1.jpg'%>
+                            </figure>
+                            <figcaption>
+                                <h4>Festival en el estadio Pascual Guerrero</h4>
+                                <p>Participamos con las categorias infantil y femenino juvenil</p>
+                            </figcaption>
+                        </li>                        
+                        
+                        <div class="caption">                        
+                        <li>
+                            <figure>
+                                <img class="img-responsive">
+                                    <%= image_tag 'D13_2016-estadio1.jpg'%>
+                                </img>
+                                <!--<figcaption>
+                                    <h4>Festival en el estadio Pascual Guerrero</h4>
+                                    <p>Participamos con las categorias infantil y femenino juvenil</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        </div>                                                
+                    </ul>
+                </section>
+
+                <section class="slideshow">          
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="images/D13_2016-estadio1.jpg" alt=""/>                       
+                            </figure>
+                        </li>
+                    </ul>
+                    <nav>
+                        <span class="icon nav-prev"></span>
+                        <span class="icon nav-next"></span>
+                        <span class="icon nav-close"></span>
+                    </nav>
+                    <div class="info-keys icon">Navigate with arrow keys</div>
+                </section>-->            
+        </div>
+    </section>
+    
+
+    <!-- footer -->
+    <footer class="footer text-center">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 text-center">
+                    <div class="widget">
+                        <h4 class="widget-title">Distrito 13 Rugby</h4>
+                        <address>Siguenos!</address>
+                        <div class="social-list">                            
+                            <a href="https://www.facebook.com/distritorugbycali/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                        <p class="copyright clear-float">
+                            © jsamzapata
+                            <div class="credits">
+                                <!-- 
+                                    All the links in the footer should remain intact. 
+                                    You can delete the links only if you purchased the pro version.
+                                    Licensing information: https://bootstrapmade.com/license/
+                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                                -->
+                                Like <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / footer -->
+    
+    <script src="javascripts/jquery.min.js"></script>
+    <script src="javascripts/jquery.easing.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery.mixitup.min.js"></script>
+    <script src="assets/javascripts/custom.js"></script>
+    <script src="javascripts/gallery.js"></script>
+    <script src="javascripts/gridscroll.js"></script>
+
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script>
+      lightbox.option({
+        'albumLabel': "Imagen %1 de %2"
+      })
+    </script>
+    
+</body>
+</html>
