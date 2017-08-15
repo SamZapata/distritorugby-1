@@ -30,12 +30,22 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url("Rugby-pelota-H-.jpg") no-repeat center top;
+    
     background-size: cover;
     min-height: 630px;
 }
-.bg-color{        
+
+.bg-banner{        
+    background: url("Rugby-pelota-H-.jpg") no-repeat center top;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgba(221, 221, 221, 0.33);
+    min-height: 630px;
+}
+
+.bg-color{            
+    background-color: rgba(221, 221, 221, 0.33);
+    min-height: 630px;
 }
 #banner h2{
     font-family: 'Satisfy', sans-serif;
