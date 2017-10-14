@@ -11,10 +11,10 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">    
     <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Rancho&effect=3d');
@@ -32,9 +32,9 @@
                 <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                   <a href="#about">Presentación</a>
-                  <a href="#event">Encuentros</a>
-                  <a href="#menu-list">¿Quiero Entrenar?</a>
-                  <a href="#gallery">Galería</a>
+                  <a href="#events">Encuentros</a>
+                  <a href="#entrenar">¿Quiero Entrenar?</a>
+                  <a href="#team-work">Team Work</a>
                 </div>
                 <!-- Use any element to open the sidenav -->
                 <span onclick="openNav()" class="pull-right menu-icon">☰</span>
@@ -44,13 +44,12 @@
         <div class="row">
           <div class="inner text-center">
             <div class="font-effect-3d">
-                <h1 class="logo-name">DISTRITO RUGBY</h1>
+                <h1 class="logo-name" style="color: black">DISTRITO RUGBY</h1>
             </div>
             <h2>¡La Moral se levanta!</h2>
             <img class="img-responsive">
-                <%= image_tag 'Logo_D13_2017.png', :width=>150, :heigth=>150%>
-            </img>
-            <p>Rugby Infantil</p>
+                <%= image_tag 'Logo_DistritoRugby_2017.png', :width=>150, :heigth=>150%>
+            </img>            
           </div>
         </div>
         </div>
@@ -63,16 +62,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center marb-35">
-                    <h1 class="header-h">Distrito 13 Rugby</h1>
-                    <p class="header-p">Es el lugar donde niños, niñas, adolescentes y jóvenes se reunen para conocer y empezar a
-                    <br>practicar rugby como alternativa de estilo de vida diferente. </p>
+                    <h1 class="header-h">Distrito Rugby</h1>
+                    <p class="header-p">Distrito Rugby nace como iniciativa de generar una fraternidad, basada en los valores que integra el rugby, en la cual se promueve el reconocimiento entre compañeros(as) de los diferentes barrios, buscando así a través de su práctica e involucramiento la participación e intercambio entre las personas que lideran, quienes entrenan y/o quienes pretenden aportar al crecimiento y desarrollo de este apasionante deporte en este sector, conformado por las comunas 13, 14, 15 y 21 al oriente de la ciudad; por cierto, estigmatizadas por los altos índices de criminalidad que se reportan.
+                    <br>Finalmente, es el lugar donde niños, niñas, adolescentes y jóvenes se reunen para conocer y empezar a <br> practicar rugby como alternativa de estilo de vida diferente. </p>
                 </div>                
                 <div class="col-md-10">
                     <div class="col-md-6 col-sm-6">
                         <div class="about-info">
                             <h2 class="heading">Rugby, un deporte de impacto</h2>
-                            <p>El rugby es un juego de disputa territorial en el que el contacto físico juega un papel importante. En D-13 nos preparamos física y mentalmente para estar activos tanto dentro como por fuera de la cancha. Aquí podrás:</p>
-                            <div class="details-list">
+                            <p class="header-p">El rugby es un juego de disputa territorial en el que el contacto físico juega un papel importante. En Distrito Rugby nos preparamos física y mentalmente para estar activos tanto dentro como por fuera de la cancha. Aquí podrás:</p>
+                            <div class="details-list header-p">
                                 <ul>
                                     <li><i class="fa fa-check"></i>Conocer nuevos amigos y amigas</li>
                                     <li><i class="fa fa-check"></i>Prepararte físicamente y mental</li>
@@ -84,7 +83,7 @@
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <img class="img-responsive">
-                            <%= image_tag 'D13_2016-estadio1.jpg', :width=>400, :heigth=>400%>                  
+                            <%= image_tag 'D13_2016-estadio1.jpg', :width=>500, :heigth=>500%>
                         </img>
                         <!--<img src="img/res01.jpg" alt="" class="img-responsive">-->
                     </div>
@@ -94,8 +93,9 @@
         </div>
     </section>
     <!--/about-->
-    <!-- event -->
-    <section id="event">
+    
+    <!-- events -->
+    <section id="events">
         <div class="bg-color" class="section-padding">
             <div class="container">
                 <div class="row">
@@ -106,13 +106,13 @@
                         <div class="item active left">
                           <div class="col-md-6 col-sm-6 left-images">
                            <img>
-                            <%= image_tag 'Rugby_Infantil_19-08-2017.png'%> 
-                           </img>                        
+                            <%= image_tag 'Rugby_Infantil_19-08-2017.png'%>
+                           </img>
                          </div>
                          <div class="col-md-6 col-sm-6 details-text">
                           <div class="content-holder">
                             <h2>Encuentro de Rugby Infantil y Juvenil</h2>
-                            <p>El próximo sábado tendremos una tarde en familia junto a nuestro club Phalanx RC</p>
+                            <p class="header-p">El próximo sábado tendremos una tarde en familia junto a nuestro club Phalanx RC
                             <address>
                               <strong>Lugar: </strong>
                               Cancha del Limonar
@@ -120,6 +120,7 @@
                               <strong>Hora: </strong>
                               03:00pm
                             </address>
+                            </p>
                             <a class="btn btn-imfo btn-read-more" href="#">Otros Eventos</a>
                           </div>
                         </div>
@@ -130,68 +131,193 @@
         </div>
     </section>
     <!--/ event -->
-    <!-- menu -->
-    <section id="menu-list" class="section-padding">
+    
+    <!-- Entrenar -->
+    <section id="entrenar" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center marb-35">
                     <h1 class="header-h">Empieza a Entrenar</h1>
                     <p class="header-p">Si quieres probar de que se trata el rugby empieza a entrenar ya ¿Qué esperas?
-                    <br>Niños y Niñas de 6 a 12 años</p>
+                    <br></p>
                 </div>
-                <div class="col-md-7">
-                    <!-- Embedded Google Map -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1502488130242!6m8!1m7!1svRYDn4Pgvfwejqr6hyqgNQ!2m2!1d3.432571539708328!2d-76.49089238125921!3f64.51319878522419!4f10.091246087183478!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                                       
+
+                <!-- TABS -->
+                <ul id="tabs" class="nav nav-tabs nav-justified">
+                    <li class="active">
+                        <a href="#comuna-trece" data-toggle="tab">Comuna 13</a>
+                    </li>
+                    <li class="">
+                        <a href="#comuna-14" data-toggle="tab">Comuna 14</a>
+                    </li>
+                    <li class="">
+                        <a href="#comuna-21" data-toggle="tab">Comuna 21</a>
+                    </li>
+                </ul>
+
+                <div id="tabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="comuna-trece">
+                        <h2 class="heading text-center">COMUNA 13</h2>
+                        <div class="col-md-6">
+                            <!-- Embedded Google Map -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m0!4v1502488130242!6m8!1m7!1svRYDn4Pgvfwejqr6hyqgNQ!2m2!1d3.432571539708328!2d-76.49089238125921!3f64.51319878522419!4f10.091246087183478!5f0.7820865974627469" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>                                       
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="heading">Grupo 1 - Infantiles</h2>
+                            <h2 class="heading">Menores de 12 Años</h2>
+                            <ul class="header-p">
+                                <li>
+                                    <i class="fa fa-home fa-2x"> </i>
+                                    Calle 72f con Carrera 26c - Urb. El Laguito <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar fa-2x"> </i>
+                                    Martes y Jueves<br></br>
+                                </li>
+                                <li>
+                                   <i class="fa fa-clock-o fa-2x"> </i>
+                                   6:00pm - 8:00pm <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-thumbs-up fa-2x"></i>
+                                    No olvides traer con que hidratar!
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="comuna-14">
+                        <h2 class="heading text-center">COMUNA 14</h2>
+
+                        <div class="col-md-6">
+                            <!-- Embedded Google Map -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.3464145681296!2d-76.47206807509737!3d3.424783560256702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a769768ca9b5%3A0x2f86c6dfc414105c!2sPolideportivo+Puertas+Del+Sol!5e0!3m2!1ses-419!2s!4v1507960156415" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>                                       
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="heading">Grupo 1 - Infantiles</h2>
+                            <h2 class="heading">Menores de 12 Años</h2>
+                            <ul class="header-p">
+                                <li>
+                                    <i class="fa fa-home fa-2x"> </i>
+                                    Carrera 26g #97 60 - Polideportivo Puertas del Sol <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar fa-2x"> </i>
+                                    Lunes y Jueves<br></br>
+                                </li>
+                                <li>
+                                   <i class="fa fa-clock-o fa-2x"> </i>
+                                   2:00pm - 6:00pm <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-thumbs-up fa-2x"></i>
+                                    No olvides traer con que hidratar!
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="comuna-21">
+                        <h2 class="heading text-center">COMUNA 21</h2>
+
+                        <div class="col-md-6">
+                            <!-- Embedded Google Map -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7539718797407!2d-76.4732315750487!3d3.4100537750220283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a74ef3a5c3ad%3A0xe75e0d8f059646ba!2sParque+La+Arboleda!5e0!3m2!1ses-419!2s!4v1507959430038" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>                                       
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="heading">Grupo 1 - Infantil y Prejuvenil</h2>
+                            <h2 class="heading">Menores de 16 Años</h2>
+                            <ul class="header-p">
+                                <li>
+                                    <i class="fa fa-home fa-2x"> </i>
+                                    Carrera 28b #72s - 121 - Parque la Arboleda, Potrero Grande <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar fa-2x"> </i>
+                                    Miércoles y Viernes<br></br>
+                                </li>
+                                <li>
+                                   <i class="fa fa-clock-o fa-2x"> </i>
+                                   3:00pm - 5:00pm <br></br>
+                                </li>
+                                <li>
+                                    <i class="fa fa-thumbs-up fa-2x"></i>
+                                    No olvides traer con que hidratar!
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="col-md-5">
-                    <h2 class="heading">¿Donde y Cuando Puedo Empezar?</h2>
-                    <ul>
-                        <li>
-                            <i class="fa fa-home fa-2x"> </i>
-                            Calle 72f con Carrera 26c - Urb. El Laguito <br></br>
-                        </li>
-                        <li>
-                            <i class="fa fa-calendar fa-2x"> </i>
-                            Martes y Jueves (fin de semana de integración) <br></br>
-                        </li>
-                        <li>
-                           <i class="fa fa-clock-o fa-2x"> </i>
-                           6:00pm - 8:00pm <br></br>
-                        </li>
-                        <li>
-                            <i class="fa fa-thumbs-up fa-2x"></i>
-                            No olvides con que hidratar!
-                        </li>
-                    </ul>
-                </div>
-                <!--<div class="col-md-12  text-center gallery-trigger">
-                    <ul>
-                        <li><a class="filter" data-filter="all">Menores de 10</a></li>
-                        <li><a class="filter" data-filter=".category-1">Menores de 14</a></li>
-                        <li><a class="filter" data-filter=".category-2">Menores de 18</a></li>                        
-                    </ul>
-                </div>-->                
+                
             </div>
         </div>
     </section>
     <!--/ menu -->
     
-    <!-- Galeria -->
-    <section class="gallery" id="gallery">
+    <!-- Equipo de Trabajo -->
+    <section class="gallery" id="team-work">
         <div class="bg-color">
         <div class="container">
             <div class="text-center">
-                <h1 class="header-h">Momentos</h1>
-                <p class="header-p">Estos son algunos de los instantes captados en nuestras prácticas, juegos y demás actividades</p>
+                <h1 class="header-h">Equipo de Trabajo</h1>
+                <p class="header-p">Este es un breve perfil de las personas que líderan el proceso de desarrollo del rugby en el Distrito de Aguablanca</p>
+            </div>
+
+            <div class="col-md-12">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="img-thumbnail">
+                            <img class="img-responsive">
+                                <%= image_tag 'Johnny.jpg', :width=>300, :heigth=>300%>
+                            </img>
+                            <div class="caption">
+                                <h3 class="heading">Johnny Zapata</h3>
+                                <ul class="list-inline">
+                                  <li><a href="https://www.facebook.com/johnny.s.zapata" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="img-thumbnail">
+                            <img class="img-responsive">
+                                <%= image_tag 'Geraldine.jpg', :width=>300, :heigth=>300%>
+                            </img>
+                            <div class="caption">
+                                <h3 class="heading">Geraldine Agudelo</h3>
+                                <ul class="list-inline">
+                                  <li><a href="https://www.facebook.com/geraldine.agudelomatallana#" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="img-thumbnail">
+                            <img class="img-responsive">
+                                <%= image_tag 'leandro.jpg', :width=>300, :heigth=>500%>
+                            </img>
+                            <div class="caption">
+                                <h3 class="heading">Leandro Lenis</h3>
+                                <ul class="list-inline">
+                                  <li><a href="https://www.facebook.com/metanoialn" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <articles class="row">
                 <article class="col-md-3">                    
                     <a href="#Festival_Estadio_2016" data-lightbox="example-set" data-tittle="Festival_Estadio">
-                    <img alt="" class="img-thumbnail">
-                        <%= image_tag 'D13_2016-estadio1.jpg', :width=>300, :heigth=>300%>
-                    </img></a>
-                    <p class="text-center">Festival en el Estadio Pascual Guerrero</p>
                 </article>
             </articles>
         </div>
@@ -260,21 +386,15 @@
             <div class="row">
                 <div class="col-md-offset-3 col-md-6 text-center">
                     <div class="widget">
-                        <h4 class="widget-title">Distrito 13 Rugby</h4>
-                        <address>Siguenos!</address>
+                        <h4 class="widget-title">Distrito Rugby</h4>
+                        <address>Siguenos</address>
                         <div class="social-list">                            
-                            <a href="https://www.facebook.com/distritorugbycali/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/distritorugbycali/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </div>
                         <p class="copyright clear-float">
                             © jsamzapata
-                            <div class="credits">
-                                <!-- 
-                                    All the links in the footer should remain intact. 
-                                    You can delete the links only if you purchased the pro version.
-                                    Licensing information: https://bootstrapmade.com/license/
-                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
-                                -->
-                                Like <a href="https://bootstrapmade.com/">Free Bootstrap Themes</a>
+                            <div class="credits">                                        
+                                
                             </div>
                         </p>
                     </div>
