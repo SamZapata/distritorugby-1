@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
     <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">    
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">
+    <link rel="stylesheet" type="text/css" href="stylesheets/events.css.scss">
     <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
     <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -23,40 +24,66 @@
   </head>
 
   <body>
-  	<section id="events">
+
+  	<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+      	<div class="container">        
+          <div class="navbar-header">          
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">DistritoRugby</span>              
+            </button>
+          
+            <a class="navbar-brand" href="/home/index.html" class="align:center">
+              <%= image_tag "Logo_DistritoRugby_2017.png", :width=>70, :height=>40, :align=> "middle" %>
+            </a>
+          </div>
+     	</div>
+    </nav>
+
+    
+
+	<!--
+  <ul class="pgwSlider">
+    <li><%= image_tag "Torneo_2017_c.png"%>
+    </li>
+    <li><%= image_tag "Torneo_2017_c.png"%>
+    <li>
+        <img src="shanghai.jpg">
+        <span>Shanghai, China</span>
+    </li>
+    <li>
+        <a href="http://www.nyc.gov" target="_blank">
+            <%= image_tag "Torneo_2017_c.png"%>
+	    <span>New York, NY, USA</span>
+        </a>
+    </li>
+</ul>
+
+
+
+<!-- Place somewhere in the <body> of your page 
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="http://via.placeholder.com/350x150" />
+    </li>
+    <li>
+      <img src="http://via.placeholder.com/350x150" />
+    </li>
+    <li>
+      <img src="http://via.placeholder.com/350x150" />
+    </li>
+  </ul>
+</div>
+
+-->
+
+
+  	<div class="img-thumbnail"></div>
+    <section id="events">
 		<div class="container">
 			<div class="col-xs-12 text-center" style="padding:10px;">
 				<h1 class="header-h">ENCUENTROS</h1> 
 			</div>
-
-			
-
-			<div class="col-md-12">
-	            <div class="item active left">
-	              <div class="col-md-6 col-sm-6 left-images">
-	               
-	                <%= image_tag 'Festival_LVR_Invictus.png'%>
-	               
-	             </div>
-	             <div class="col-md-6 col-sm-6 details-text">
-	              <div class="content-holder">
-	                <h2>Festival de Rugby Infantil y Juvenil</h2>
-	                <p class="header-p">Este sábado seremos los protagonistas del festival organizado por la Liga Vallecaucana de Rugby en el proyecto Rugby para Todos
-	                <address>
-	                  <strong>Lugar: </strong>
-	                  Cancha de El Laguito / Belisario
-	                  (Calle 72f con Carrera 26h)
-	                  <br>
-	                  <strong>Hora: </strong>
-	                  2:00pm
-	                </address>
-	                </p>	                
-	              </div>
-	            </div>
-	          </div>	          
-	        </div>
-	        
-	        <hr style="border:15px;">
 
 	        <div class="col-md-12">
 	            <div class="item active left">
@@ -82,6 +109,33 @@
 	            </div>
 	          </div>
 	        </div>
+
+          <hr style="border:15px;">
+
+          <div class="col-md-12">
+              <div class="item active left">
+                <div class="col-md-6 col-sm-6 left-images">
+                 
+                  <%= image_tag 'Festival_LVR_Invictus.png'%>
+                 
+               </div>
+               <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Festival de Rugby Infantil y Juvenil</h2>
+                  <p class="header-p">Este sábado seremos los protagonistas del festival organizado por la Liga Vallecaucana de Rugby en el proyecto Rugby para Todos
+                  <address>
+                    <strong>Lugar: </strong>
+                    Cancha de El Laguito / Belisario
+                    (Calle 72f con Carrera 26h)
+                    <br>
+                    <strong>Hora: </strong>
+                    2:00pm
+                  </address>
+                  </p>                  
+                </div>
+              </div>
+            </div>            
+          </div>
 
 		</div>
 	</section>
@@ -123,4 +177,5 @@
     <!-- / footer -->
 
   </body>
+
 </html>

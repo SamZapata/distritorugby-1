@@ -17,6 +17,7 @@
  *= require font-awesome.min.css
  *= require bootstrap.min.css
  *= require style.css.scss
+ 
  */
 
  @import "bootstrap";

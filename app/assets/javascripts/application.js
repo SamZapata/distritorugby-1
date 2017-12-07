@@ -17,4 +17,10 @@
 //= require bootstrap.min
 //= require gallery
 //= require gridscroll
+  
 //= require_tree .
+
+
+  $(document).ready(function(){ 
+    $('.flexslider').flexslider();
+  });
