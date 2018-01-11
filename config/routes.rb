@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   get 'home/index'
   
-  get 'events/events'  
+  #Rutas para la publicación de eventos
+  get 'events/events'
+  get 'events/pretemporada2018'
+  get 'events/torneo2017'
 
   root 'home#index'
 
