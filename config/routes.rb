@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+  
   get 'home/index'
+
+  #Rutas para la publicación de post
+  get 'blog/index'
+
   
   #Rutas para la publicación de eventos
   get 'events/events'

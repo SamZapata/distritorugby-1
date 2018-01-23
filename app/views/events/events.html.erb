@@ -26,17 +26,26 @@
 
   <body>
 
-  	<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+  	<!-- MENU FIJO -->
+    <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
       	<div class="container">        
           <div class="navbar-header">          
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
               <span class="sr-only">DistritoRugby</span>              
             </button>
           
-            <a class="navbar-brand" href="/home/index.html" class="align:center">
-              <%= image_tag "Logo_DistritoRugby_2017.png", :width=>70, :height=>80, :align=> "middle" %>
+            <a class="navbar-brand" href="/home/index.html">
+              <%= image_tag "Logo_DR_White.png", :width=>70, :height=>80 %>
             </a>
           </div>
+
+          <div class="navbar-header-menu">
+            <a class="navbar-brand header-menu" href="/home/index.html">Inicio</a>
+            <a class="navbar-brand header-menu" href="/events/events.html">Eventos</a>
+            <a class="navbar-brand header-menu" href="/blog/index.html">Blog</a>
+            <a class="navbar-brand header-menu" href="#">Contacto</a>
+          </div>
+
      	</div>
     </nav>
 
