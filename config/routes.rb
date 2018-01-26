@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
   
+  mount Spina::Engine => '/Spina'
   get 'home/index'
 
   #Rutas para la publicación de post
   get 'blog/index'
 
+  #Rutas para la publicación de Noticias
+  resources :news
+  
+
+  #Rutas para la publicación de Historias de vida
+  resources :histories
   
   #Rutas para la publicación de eventos
   get 'events/events'

@@ -14,6 +14,7 @@ body {
     font-weight: 400;
     overflow-x: hidden; 
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -48,8 +49,7 @@ table {
     min-height: 630px;
 }
 
-.bg-blog{        
-    /* background: url('rugby-1255320_1920.jpg') no-repeat ; */
+.bg-blog{            
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(221, 221, 221, 0.33);
@@ -104,32 +104,33 @@ table {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20px;
     left: 0;
-    background-color: #111;
+    background-color: #009efe;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 15px;
     transition: 0.5s;
 }
 .sidenav-blog a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 16px;
+    color: white;
     display: block;
     transition: 0.3s
 }
 .sidenav-blog a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #1f1f1f;
 }
 
 .closebtn {
     position: absolute;
-    top: 0;
+    top: 70px;
     right: 25px;
     font-size: 36px !important;
     margin-left: 50px;
 }
+
 #main {
     transition: margin-left .5s;
     padding: 20px;
@@ -138,7 +139,7 @@ table {
 {
     color: #fff;
     font-size: 30px;
-    margin-top: 30px;
+    margin-top: 125px;
     cursor: pointer;
 }
 
@@ -148,9 +149,11 @@ table {
     font-family: 'Rancho', sans-serif;
     font-weight: 300;
 }
+
 .header-p {
     color: #1e1c1f;
     font-size: 16px;
+    padding-top: 0px;
 }
 
 .header-menu {
@@ -158,6 +161,23 @@ table {
     font-size: 30px;
     font-family: 'Rancho', sans-serif;
     font-weight: 300;
+    padding-top: 50px;
+}
+
+.header-s {
+    color: #0000FF;
+    font-size: 52px;
+    font-family: 'Rancho', sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+.header-t {
+    color: #0000FF;
+    font-size: 30px;
+    font-family: 'Rancho', sans-serif;
+    font-weight: 300;
+    padding-left: 140px;
 }
 
 .msg-row {

@@ -27,6 +27,13 @@ gem 'bootstrap-sass'
 
 gem 'font-awesome-rails'
 
+#Alchemy_cms
+gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
+gem 'alchemy-devise', github: 'AlchemyCMS/alchemy-devise', branch: 'master'
+
+#Spina CMS
+gem 'spina'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
