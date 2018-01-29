@@ -48,7 +48,7 @@
 	<!-- Menu Blog -->
   <section id="index-blog">
 	<div class="bg-blog">
-		<header id="header">
+		  <header id="header">
             <div class="container">
                 <div id="mySidenav" class="sidenav-blog">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -65,8 +65,56 @@
                 <span onclick="openNav()" class="pull-left menu-icon" style="color: black">☰</span>
             </div>
         </header>
+    
+
+    <!-- Intro -->
+    <p class="header-p text-center">
+      En este blog podrás encontrar la siguiente información:
+    </p>
+
+    <!-- Carousel mostrar opciones del blog -->
+    <div class="col-sm-8 col-sm-offset-3">
+      <div id="carouselIndexBlog" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndexBlog" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndexBlog" data-slide-to="1"></li>
+          <li data-target="#carouselIndexBlog" data-slide-to="2"></li>
+          <li data-target="#carouselIndexBlog" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner text-center">
+          <div class="item active">
+            <a class="header-h" href="/news">Noticias</a>            
+          </div>
+
+          <div class="item">
+            <a class="header-h" href="/histories">Historias</a>
+          </div>
+
+          <div class="item">
+            <a class="header-h" href="#">Competencias</a>
+          </div>
+
+          <div class="item">
+            <a class="header-h" href="/#">Toolbox</a>
+          </div>
+        </div>
+
+        <!-- Controles -->
+        <a class="left carousel-control" href="#carouselIndexBlog" data-slide="prev">
+            <span ><</span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        <a class="right carousel-control" href="#carouselIndexBlog" data-slide="next">
+            <span >></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+
+      </div>
     </div>
-    </section>
+  </div>
+  </section>
 
 </body>
 </html>

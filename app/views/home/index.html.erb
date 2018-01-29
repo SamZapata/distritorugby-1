@@ -34,7 +34,7 @@
                   <a href="#about">Presentación</a>
                   <a href="#events">Encuentros</a>
                   <a href="#entrenar">¿Quiero Entrenar?</a>
-                  <a href="#team-work">Team Work</a>
+                  <a href="#semilleros">Semilleros</a>
                   <a href="/blog/index.html">Blog</a>
                 </div>
                 <!-- Use any element to open the sidenav -->
@@ -101,30 +101,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center" style="padding:10px;">
-                      <h1 class="header-h">Próximos encuentros</h1>                      
+                      <a href="/events/events"><h1 class="header-h">Encuentros</h1></a>
                     </div>
                     <div class="col-md-12">
-                        <div class="item active left">
-                          <div class="col-md-6 col-sm-6 left-images">
-                           
-                            <%= image_tag 'dr_pretemporada_2018.png'%>
-                           
-                         </div>
-                         <div class="col-md-6 col-sm-6 details-text">
-                          <div class="content-holder">
-                            <h2>Inicio de Pretemporada 2018</h2>
-                            <p class="header-p">No esperes más, empieza a entrenar ya!
-                            <address>
-                              <strong>Lugar: </strong>
-                              Cancha de El Laguito                              
-                              <br>
-                              <strong>Hora: </strong>
-                              3:30pm
-                            </address>
-                            </p>
-                            <a class="btn btn-imfo btn-read-more" href="/events/events">Eventos</a>
-                          </div>
+                        <div id="carouselHome" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselHome" data-slide-to="0" class="active">
+                                </li>
+                                <li data-target="#carouselHome" data-slide-to="1"></li>
+                                <li data-target="#carouselHome" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- carga de elementos a los slide -->
+                            <div class="carousel-inner">
+                                <!-- <div class="col-md-10">-->
+                                    <div class="item active col-md-10" align="center">
+                                        <a class="heading" href="/events/pretemporada2018.html">Inicio de Pretemporada 2018</a>
+                                        <%= image_tag 'dr_pretemporada_2018.png', :width=>600, :heigth=>600%>
+                                    </div>
+                                    <div class="item col-md-10" align="center">
+                                        <a class="heading" href="#">Campeonato de Rugby 7's 2017</a>
+                                        <%= image_tag 'Torneo_2017_c.png', :width=>600, :heigth=>600%>
+                                    </div>
+                                    <div class="item col-md-10" align="center">
+                                        <a class="heading" href="#">Festival Invictus LVR 2017</a>
+                                        <%= image_tag 'Festival_LVR_Invictus.png', :width=>600, :heigth=>600%>
+                                    </div>
+                                
+                                <!-- Controles -->
+                                <a class="left carousel-control" href="#carouselHome" data-slide="prev">
+                                    <span ><</span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+
+                                <a class="right carousel-control" href="#carouselHome" data-slide="next">
+                                    <span >></span>
+                                    <span class="sr-only">Siguiente</span>
+                                </a>
+                            </div>
                         </div>
+
                       </div>
                     </div>
                 </div>
@@ -138,8 +154,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center marb-35">
-                    <h1 class="header-h">Empieza a Entrenar</h1>
-                    <p class="header-p">Si quieres probar de que se trata el rugby empieza a entrenar ya ¿Qué esperas?
+                    <h1 class="header-h">¿Donde Entrenar?</h1>
+                    <p class="header-p">Si quieres probar de que se trata el rugby empieza a entrenar ya ¿Qué esperas?. En el oriente, podrás encontrar grupos de práctica en las siguientes comunas.
                     <br></p>
                 </div>
 
@@ -257,8 +273,64 @@
     </section>
     <!--/ menu -->
     
-    <!-- Equipo de Trabajo -->
-    <section class="gallery" id="team-work">
+    <!-- Grupos de Práctica -->
+    <section class="gallery" id="semilleros">
+        <datalist></datalist>v class="container">
+            <div class="row bg-color">
+                <div class="col-md-12 text-center marb-35">
+                    <h1 class="header-h">¡Jugamos Rugby!</h1>
+                    <p class="header-p">Apoyamos el desarrollo del rugby en nuestra región. Y queremos motivar a que nuevas personas e instituciones se unan y patrocinen la construcción de nuevos sueños en nuestra ciudad. Por eso nos parece importante apostar por el desarrollo del rugby en las siguientes modalidades.
+                    <br></p>
+                </div>
+
+                <!-- TABS -->
+                <ul id="tabs" class="nav nav-tabs nav-justified">
+                    <li class="active">
+                        <a href="#femenino" data-toggle="tab">Rugby Femenino</a>
+                    </li>
+                    <li class="">
+                        <a href="#infantil" data-toggle="tab">Rugby Infantil</a>
+                    </li>
+                    <li class="">
+                        <a href="#juvenil" data-toggle="tab">Rugby Juvenil</a>
+                    </li>
+                </ul>
+
+                <div id="tabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="femenino">
+                        <h2 class="heading text-center">Rugby Femenino</h2>
+                        <div class="container text-center">
+                        <div class="col-md-12 thumbnail" align="justify">
+                              <%= image_tag "DR_fem_m10.jpg", :width=>"700px", :heigth=>"700px" %>
+                              <img src="https://instagram.fclo1-2.fna.fbcdn.net/vp/fd7b803b489724a70d96e1f047983a93/5B21918F/t51.2885-15/e35/13651797_523860934485196_2135487911_n.jpg", width="700px", height="700px">
+                              <%= image_tag "DR_fem_m16.jpg", :width=>"700px", :heigth=>"700px" %>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="infantil">
+                        <h2 class="heading text-center">Rugby Infantil</h2>
+                        <div class="container text-center">
+                        <div class="col-md-12 thumbnail" align="justify">
+                              <%= image_tag "DR_Infantiles_1", :width=>"700px", :heigth=>"700px" %>
+                              <%= image_tag "DR_Infantiles_2", :width=>"700px", :heigth=>"700px" %>
+                              <%= image_tag "DR_Infantiles_3", :width=>"700px", :heigth=>"700px" %>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="juvenil">
+                        <h2 class="heading text-center">Rugby Juvenil</h2>
+                        <div class="container text-center">
+                        <div class="col-md-12 thumbnail" align="justify">
+                              <%= image_tag "DR_Juveniles_1", :width=>"700px", :heigth=>"700px" %>
+                              
+                        </div>
+                        </div>
+
+                    </div>
+
+        <!--
         <div class="bg-color">
         <div class="container">
             <div class="text-center">
@@ -316,6 +388,7 @@
                 </div>
             </div>
         </div>
+        -->
 
         <!--<div class="container">
             <div class="row">
@@ -381,14 +454,10 @@
             <div class="row">
                 <div class="col-md-offset-3 col-md-6 text-center">
                     <div >
-                        <h2>DISTRITO RUGBY</h2>
-                        <h4>Quienes nos respaldan</h4>
+                        <h2>DISTRITO RUGBY</h2>                        
                         <div class="row img-thumbnail">
                             <img class="img-responsive">
-                                <%= image_tag 'sec_deporte.jpg', :width=>100, :heigth=>100%>
-                                <%= image_tag 'deporvida.jpeg', :width=>100, :heigth=>100%>
                                 <%= image_tag 'Logo Rugby Valle.png', :width=>100, :heigth=>100%>
-                                <%= image_tag 'cali_progresa.jpeg', :width=>100, :heigth=>100%>
                             </img>                            
                         </div>
                         <address>Para más información
