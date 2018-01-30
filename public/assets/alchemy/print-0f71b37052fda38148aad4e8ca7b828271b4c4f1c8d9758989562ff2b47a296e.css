@@ -1,0 +1,38 @@
+/*
+
+ */
+/* line 8, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+div#main_menu,
+div#top_menu,
+div#corner,
+div#flash_notices,
+div.pagination span,
+div.pagination a {
+  display: none;
+}
+
+/* line 17, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+div#archive_all {
+  padding: 0;
+}
+
+/* line 21, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+span.icon.true:before {
+  content: 'x';
+}
+
+/* line 25, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+div.pagination {
+  text-align: right;
+}
+
+/* line 29, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+div.pagination em.current {
+  border: none;
+  text-shadow: none;
+}
+
+/* line 34, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/print.scss */
+div.pagination em:before {
+  content: 'Page ';
+}

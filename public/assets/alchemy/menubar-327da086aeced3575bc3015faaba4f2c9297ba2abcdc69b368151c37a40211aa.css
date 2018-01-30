@@ -1,0 +1,136 @@
+/*
+
+ */
+/* line 10, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar {
+  position: fixed;
+  top: 0;
+  left: -356px;
+  width: 400px;
+  z-index: 10000;
+  background: #ededed;
+  -webkit-transition: left 0.15s ease-in-out;
+  -moz-transition: left 0.15s ease-in-out;
+  -ms-transition: left 0.15s ease-in-out;
+  -o-transition: left 0.15s ease-in-out;
+  transition: left 0.15s ease-in-out;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottom-right: 3px;
+  -ms-border-bottom-right-radius: 3px;
+  -o-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: 0px 0px 4px #666666;
+  -moz-box-shadow: 0px 0px 4px #666666;
+  -ms-box-shadow: 0px 0px 4px #666666;
+  -o-box-shadow: 0px 0px 4px #666666;
+  box-shadow: 0px 0px 4px #666666;
+  box-sizing: border-box;
+  border-right: 1px solid #afafaf;
+  border-bottom: 1px solid #afafaf;
+  height: 44px;
+  padding: 4px 40px 4px 8px;
+  overflow: hidden;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+/* line 28, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar:hover {
+  left: 0;
+}
+/* line 38, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar:after {
+  content: '';
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: url(/assets/alchemy/icon-7bb77bda9088c8e833b1e359851e6fd32bdc7ec803ae37a5364330f6a1a49e48.svg) 0 0 no-repeat;
+  background-size: 28px 28px;
+}
+/* line 49, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar ul {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+/* line 54, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar ul li {
+  width: 32%;
+  height: 35px;
+  margin: 0 4px 0 0;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+  text-align: center;
+}
+/* line 63, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar ul li a, #alchemy_menubar ul li button {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  background-image: linear-gradient(#f2f2f2, #d9d9d9);
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #9a9a9a;
+  color: rgba(39, 47, 69, 0.8);
+  text-shadow: #f2f2f2 1px 1px 0;
+  margin: 4px 0;
+  -webkit-appearance: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 100%;
+  display: block;
+  line-height: 14px;
+  font-weight: normal;
+  text-decoration: none !important;
+  text-transform: none;
+  color: rgba(39, 47, 69, 0.8) !important;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+/* line 32, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a:hover, #alchemy_menubar ul li button:hover {
+  text-decoration: none;
+  background-color: #e6f0f5;
+  background-image: linear-gradient(#e5e5e5, #cccccc);
+  border-color: #888888;
+}
+/* line 42, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a:active, #alchemy_menubar ul li a:active:focus, #alchemy_menubar ul li button:active, #alchemy_menubar ul li button:active:focus {
+  box-shadow: #c4c4c4 0 1px 2px inset;
+  border-color: #9a9a9a;
+}
+/* line 47, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a:focus, #alchemy_menubar ul li button:focus {
+  border-color: #9bb9cb;
+  box-shadow: 0 0 1px 1px #9bb9cb;
+  outline: none;
+}
+/* line 6, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a:focus::-moz-focus-inner, #alchemy_menubar ul li button:focus::-moz-focus-inner {
+  border: none !important;
+  padding: 1px !important;
+}
+/* line 51, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a.disabled, #alchemy_menubar ul li a[disabled], #alchemy_menubar ul li a.disabled:active, #alchemy_menubar ul li a[disabled]:active, #alchemy_menubar ul li a.disabled:hover, #alchemy_menubar ul li a[disabled]:hover, #alchemy_menubar ul li button.disabled, #alchemy_menubar ul li button[disabled], #alchemy_menubar ul li button.disabled:active, #alchemy_menubar ul li button[disabled]:active, #alchemy_menubar ul li button.disabled:hover, #alchemy_menubar ul li button[disabled]:hover {
+  opacity: 0.6;
+  background: #d9d9d9;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+/* line 60, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/_mixins.scss */
+#alchemy_menubar ul li a::-moz-focus-inner, #alchemy_menubar ul li button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+/* line 76, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/menubar.scss */
+#alchemy_menubar ul li a:after, #alchemy_menubar ul li button:after {
+  display: none;
+}

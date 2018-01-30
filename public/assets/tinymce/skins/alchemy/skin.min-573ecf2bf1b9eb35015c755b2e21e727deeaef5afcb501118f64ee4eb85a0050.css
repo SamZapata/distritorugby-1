@@ -1,0 +1,2424 @@
+/* line 3, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container,
+.mce-container *,
+.mce-widget,
+.mce-widget * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  background: transparent;
+  text-decoration: none;
+  color: rgba(39, 47, 69, 0.8);
+  font-size: 12px;
+  text-shadow: none;
+  float: none;
+  position: static;
+  width: auto;
+  height: auto;
+  white-space: nowrap;
+  cursor: inherit;
+  -webkit-tap-highlight-color: transparent;
+  line-height: normal;
+  font-weight: normal;
+  text-align: left;
+  box-sizing: content-box;
+  direction: ltr;
+}
+
+/* line 34, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container *[unselectable] {
+  user-select: none;
+}
+
+/* line 38, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 3px;
+}
+
+/* line 44, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container ::-webkit-scrollbar-track-piece,
+.mce-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* line 49, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 57, 71, 0.3);
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
+
+/* line 56, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+/* line 61, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fade.mce-in {
+  opacity: 1;
+}
+
+/* line 66, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fullscreen {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  z-index: 100;
+}
+/* line 74, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fullscreen .mce-resizehandle {
+  display: none;
+}
+
+/* line 79, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+div.mce-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* line 87, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tinymce {
+  visibility: visible !important;
+  position: relative;
+  display: block;
+  border-radius: 3px;
+}
+
+/* line 94, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-wordcount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
+
+/* line 101, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+div.mce-edit-area {
+  background: #FFF;
+  filter: none;
+  border-top: 0;
+  border-radius: 3px;
+}
+
+/* line 108, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-statusbar {
+  position: relative;
+}
+/* line 111, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-statusbar .mce-container-body {
+  position: relative;
+}
+
+/* line 116, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-charmap {
+  border-collapse: collapse;
+}
+/* line 119, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-charmap td {
+  cursor: default;
+  border: 1px solid #afafaf;
+  width: 20px;
+  height: 16px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+}
+/* line 129, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-charmap td:hover {
+  background: #d9d9d9;
+}
+/* line 133, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-charmap td div {
+  text-align: center;
+}
+
+/* line 139, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid {
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+/* line 143, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid a {
+  display: block;
+  border: 1px solid transparent;
+}
+/* line 147, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid a:hover {
+  border-color: #a1a1a1;
+}
+/* line 152, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid td div {
+  border: 1px solid #d6d6d6;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+/* line 161, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid-border {
+  margin: 0 4px;
+}
+/* line 164, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid-border a {
+  border-color: #d6d6d6;
+  width: 13px;
+  height: 13px;
+}
+/* line 169, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-grid-border a.mce-active, .mce-grid-border a:hover {
+  border-color: #a1a1a1;
+  background: #c8def4;
+}
+
+/* line 177, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-text-center {
+  text-align: center;
+}
+
+/* line 181, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+div.mce-tinymce-inline {
+  width: 100%;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 188, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-wordcount {
+  left: 0;
+  right: auto;
+}
+
+/* line 193, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container,
+.mce-container-body {
+  display: block;
+}
+
+/* line 198, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-autoscroll {
+  overflow: hidden;
+}
+
+/* line 202, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scrollbar {
+  position: absolute;
+  width: 7px;
+  height: 100%;
+  top: 2px;
+  right: 2px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+/* line 213, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scrollbar-h {
+  top: auto;
+  right: auto;
+  left: 2px;
+  bottom: 2px;
+  width: 100%;
+  height: 7px;
+}
+
+/* line 222, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scrollbar-thumb {
+  position: absolute;
+  background-color: #000;
+  border: 1px solid #888;
+  border-color: rgba(85, 85, 85, 0.6);
+  width: 5px;
+  height: 100%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* line 234, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scrollbar-h .mce-scrollbar-thumb {
+  width: 100%;
+  height: 5px;
+}
+
+/* line 239, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scrollbar.mce-active,
+.mce-scrollbar:hover {
+  background-color: #AAA;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  zoom: 1;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* line 250, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-scroll {
+  position: relative;
+}
+
+/* line 254, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-panel {
+  border: 0 solid #afafaf;
+  background-color: #e3e3e3;
+}
+
+/* line 259, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-toolbar-grp {
+  border-bottom: 1px solid #afafaf;
+}
+
+/* line 263, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel {
+  position: absolute;
+}
+/* line 266, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-fixed {
+  position: fixed;
+}
+/* line 270, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel .mce-arrow,
+.mce-floatpanel .mce-arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+/* line 280, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel .mce-arrow {
+  border-width: 11px;
+}
+/* line 283, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel .mce-arrow:after {
+  border-width: 10px;
+  content: "";
+}
+/* line 289, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover {
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  background: #fff;
+  border: 1px solid #afafaf;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+/* line 301, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom {
+  margin-top: 10px;
+  *margin-top: 0;
+}
+/* line 306, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom > .mce-arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #afafaf;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+/* line 315, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom > .mce-arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #fff;
+}
+/* line 322, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom.mce-start {
+  margin-left: -22px;
+}
+/* line 326, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom.mce-start > .mce-arrow {
+  left: 20px;
+}
+/* line 330, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom.mce-end {
+  margin-left: 22px;
+}
+/* line 334, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-floatpanel.mce-popover.mce-bottom.mce-end > .mce-arrow {
+  right: 10px;
+  left: auto;
+}
+
+/* line 340, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fullscreen {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  height: 100%;
+}
+
+/* line 349, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+div.mce-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 355, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+#mce-modal-block {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  zoom: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+/* line 367, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+#mce-modal-block.mce-in {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+/* line 373, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-move {
+  cursor: move;
+}
+
+/* line 377, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window {
+  border-radius: 3px;
+  border: 1px solid #afafaf;
+  background-color: #ededed;
+  color: rgba(39, 47, 69, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 150ms ease-in;
+  transition: opacity 150ms ease-in;
+}
+/* line 389, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window.mce-in {
+  opacity: 1;
+}
+
+/* line 394, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-head {
+  padding: 8px 12px;
+  background-color: #cddce5;
+  position: relative;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 400, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-head .mce-title {
+  line-height: 20px;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  padding-right: 10px;
+}
+/* line 407, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-head .mce-dragh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+  width: 90%;
+  height: 100%;
+}
+/* line 416, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-head .mce-close {
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  color: rgba(39, 47, 69, 0.8);
+  cursor: pointer;
+  height: 18px;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 430, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window-head .mce-close:hover {
+  color: #000;
+  background: transparent;
+}
+
+/* line 437, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window .mce-container-body {
+  display: block;
+}
+
+/* line 441, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-foot {
+  display: block;
+  background-color: transparent;
+  border-top: 0 none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 447, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-foot .mce-btn {
+  border-radius: 3px;
+  border: 0 none;
+}
+/* line 451, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-foot .mce-btn button {
+  padding: 0.3em 1.5em;
+  width: auto !important;
+  height: auto !important;
+  border: 1px solid #9a9a9a;
+}
+/* line 458, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-foot .mce-btn .mce-txt {
+  vertical-align: middle;
+}
+
+/* line 464, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 469, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-window.mce-fullscreen,
+.mce-window.mce-fullscreen .mce-foot {
+  border-radius: 3px;
+}
+
+/* line 474, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-window-head .mce-close {
+  position: absolute;
+  right: auto;
+  left: 15px;
+}
+
+/* line 480, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-window-head .mce-dragh {
+  left: auto;
+  right: 0;
+}
+
+/* line 485, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-window-head .mce-title {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 490, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-abs-layout {
+  position: relative;
+}
+
+/* line 494, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-abs-end,
+body .mce-abs-layout-item {
+  position: absolute;
+}
+
+/* line 499, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-abs-end {
+  width: 1px;
+  height: 1px;
+}
+
+/* line 504, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container-body.mce-abs-layout {
+  overflow: hidden;
+}
+
+/* line 508, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip {
+  position: absolute;
+  padding: 5px;
+}
+
+/* line 513, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-inner {
+  font-size: 11px;
+  background-color: #666666;
+  color: #fff;
+  max-width: 200px;
+  padding: 4px 8px;
+  text-align: center;
+  white-space: normal;
+  box-shadow: 0 0 4px #afafaf;
+  border-radius: 3px;
+}
+
+/* line 525, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px solid #666666;
+}
+
+/* line 533, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-arrow-n {
+  border-bottom-color: #666666;
+}
+
+/* line 537, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-arrow-s {
+  border-top-color: #666666;
+}
+
+/* line 541, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-arrow-e {
+  border-left-color: #666666;
+}
+
+/* line 545, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-arrow-w {
+  border-right-color: #666666;
+}
+
+/* line 549, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-nw,
+.mce-tooltip-sw {
+  margin-left: -14px;
+}
+
+/* line 554, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-n .mce-tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-style: solid;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 564, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-nw .mce-tooltip-arrow {
+  top: 0;
+  left: 10px;
+  border-bottom-style: solid;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 573, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-ne .mce-tooltip-arrow {
+  top: 0;
+  right: 10px;
+  border-bottom-style: solid;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 582, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-s .mce-tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 592, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-sw .mce-tooltip-arrow {
+  bottom: 0;
+  left: 10px;
+  border-top-style: solid;
+  border-bottom: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 601, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-se .mce-tooltip-arrow {
+  bottom: 0;
+  right: 10px;
+  border-top-style: solid;
+  border-bottom: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 610, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-e .mce-tooltip-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* line 620, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tooltip-w .mce-tooltip-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* line 630, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn {
+  border: 1px solid #b1b1b1;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.25);
+  position: relative;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(#f2f2f2, #d9d9d9);
+}
+/* line 641, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn:focus, .mce-btn:hover {
+  color: #333;
+  background: linear-gradient(#e5e5e5, #cccccc);
+}
+/* line 646, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn:focus button, .mce-btn:hover button {
+  background: inherit;
+}
+/* line 651, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn button {
+  padding: 2px 4px;
+  font-size: 12px;
+  line-height: 20px;
+  *line-height: 16px;
+  cursor: pointer;
+  color: #333;
+  text-align: center;
+  overflow: visible;
+  -webkit-appearance: none;
+  border-radius: inherit;
+}
+/* line 663, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn button:focus {
+  box-shadow: none;
+  border: 0 none;
+  background: none;
+}
+/* line 669, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn button:active {
+  border: 0 none;
+}
+/* line 673, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 679, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn i {
+  text-shadow: 1px 1px #fff;
+}
+/* line 683, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn.mce-disabled button, .mce-btn.mce-disabled:hover button {
+  cursor: default;
+  box-shadow: none;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+/* line 692, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn.mce-active, .mce-btn.mce-active:hover {
+  background-color: #e6f0f5;
+  background-image: linear-gradient(#e5e5e5, #cccccc);
+  box-shadow: #c4c4c4 0 1px 2px inset;
+}
+/* line 698, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn.mce-active button i, .mce-btn.mce-active:hover button i {
+  color: #000;
+}
+/* line 703, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn:not(.mce-disabled):active {
+  background-color: #d6d6d6;
+  background-image: -moz-linear-gradient(top, #e6e6e6, #c0c0c0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#c0c0c0));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #c0c0c0);
+  background-image: -o-linear-gradient(top, #e6e6e6, #c0c0c0);
+  background-image: linear-gradient(to bottom, #e6e6e6, #c0c0c0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= '#ffe6e6e6',endColorstr='#ffc0c0c0',GradientType=0);
+  zoom: 1;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 719, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-large button {
+  padding: 9px 14px;
+  font-size: 16px;
+  line-height: normal;
+  border-radius: 3px;
+}
+
+/* line 726, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-large i {
+  margin-top: 2px;
+}
+
+/* line 730, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-small button {
+  padding: 1px 5px;
+  font-size: 12px;
+  *padding-bottom: 2px;
+}
+
+/* line 736, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-small i {
+  line-height: 20px;
+  vertical-align: top;
+  *line-height: 18px;
+}
+
+/* line 742, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn .mce-caret {
+  margin-top: 8px;
+  margin-left: 0;
+}
+
+/* line 747, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-small .mce-caret {
+  margin-top: 8px;
+  margin-left: 0;
+}
+
+/* line 752, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-caret {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #333;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+
+/* line 765, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-disabled .mce-caret {
+  border-top-color: #aaa;
+}
+
+/* line 769, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-caret.mce-up {
+  border-bottom: 4px solid #333;
+  border-top: 0;
+}
+
+/* line 774, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-btn button {
+  direction: rtl;
+}
+
+/* line 778, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-group .mce-btn {
+  border-width: 1px 0 1px 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* line 784, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-group .mce-first {
+  border-left: 1px solid #b1b1b1;
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 790, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-group .mce-last {
+  border-right: 1px solid #b1b1b1;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 796, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-group .mce-first.mce-last {
+  border-radius: 3px;
+}
+
+/* line 800, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-group .mce-btn.mce-flow-layout-item {
+  margin: 0;
+}
+
+/* line 804, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-checkbox {
+  cursor: pointer;
+}
+
+/* line 808, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+i.mce-i-checkbox {
+  margin: 0 3px 0 0;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #f0f0f0;
+  background-image: -moz-linear-gradient(top, #fff, #d9d9d9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(top, #fff, #d9d9d9);
+  background-image: -o-linear-gradient(top, #fff, #d9d9d9);
+  background-image: linear-gradient(to bottom, #fff, #d9d9d9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr= '#ffffffff',endColorstr='#ffd9d9d9',GradientType=0);
+  zoom: 1;
+  text-indent: -10em;
+  *font-size: 0;
+  *line-height: 0;
+  *text-indent: 0;
+  overflow: hidden;
+}
+
+/* line 829, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-checked i.mce-i-checkbox {
+  color: #333;
+  font-size: 16px;
+  line-height: 16px;
+  text-indent: 0;
+}
+
+/* line 836, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-checkbox.mce-focus i.mce-i-checkbox,
+.mce-checkbox:focus i.mce-i-checkbox {
+  border: 1px solid rgba(82, 168, 236, 0.8);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.65);
+}
+
+/* line 842, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-checkbox.mce-disabled .mce-label,
+.mce-checkbox.mce-disabled i.mce-i-checkbox {
+  color: #acacac;
+}
+
+/* line 847, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-checkbox {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 852, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl i.mce-i-checkbox {
+  margin: 0 0 0 3px;
+}
+
+/* line 856, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton .mce-ico {
+  position: relative;
+}
+
+/* line 860, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton-grid {
+  margin: 4px;
+}
+
+/* line 864, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton button {
+  padding-right: 4px;
+}
+
+/* line 868, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton .mce-preview {
+  padding-right: 3px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -14px;
+  margin-top: 7px;
+  background: gray;
+  width: 13px;
+  height: 2px;
+  overflow: hidden;
+}
+
+/* line 882, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton.mce-btn-small .mce-preview {
+  margin-left: -16px;
+  padding-right: 0;
+  width: 16px;
+}
+
+/* line 888, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton .mce-open {
+  padding-left: 4px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+/* line 894, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton:hover .mce-open {
+  border-left-color: #bdbdbd;
+  border-right-color: #bdbdbd;
+}
+
+/* line 899, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-colorbutton.mce-btn-small .mce-open {
+  padding: 0 3px;
+}
+
+/* line 903, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-colorbutton {
+  direction: rtl;
+}
+
+/* line 907, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-colorbutton .mce-preview {
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 4px;
+  margin-right: -14px;
+}
+
+/* line 914, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-colorbutton.mce-btn-small .mce-preview {
+  margin-left: 0;
+  padding-right: 0;
+  margin-right: -17px;
+  padding-left: 0;
+}
+
+/* line 921, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-colorbutton button {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 926, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-colorbutton .mce-open {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* line 931, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  *height: 32px;
+}
+
+/* line 940, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox input {
+  border: 1px solid #c5c5c5;
+  border-right-color: #c5c5c5;
+  height: 28px;
+}
+
+/* line 946, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox.mce-disabled input {
+  color: #adadad;
+}
+
+/* line 950, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox.mce-has-open input {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 954, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox .mce-btn {
+  border-left: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 959, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox button {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* line 964, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-combobox.mce-disabled .mce-btn button {
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  zoom: 1;
+}
+
+/* line 974, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 4px 6px;
+  white-space: normal;
+}
+
+/* line 982, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path .mce-txt {
+  display: inline-block;
+  padding-right: 3px;
+}
+
+/* line 987, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path .mce-path-body {
+  display: inline-block;
+}
+
+/* line 991, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path-item {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  cursor: pointer;
+  color: #333;
+}
+
+/* line 999, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path-item:hover {
+  text-decoration: underline;
+}
+
+/* line 1003, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path-item:focus {
+  background: #666;
+  color: #fff;
+}
+
+/* line 1008, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-path .mce-divider {
+  display: inline;
+}
+
+/* line 1012, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-disabled .mce-path-item {
+  color: #aaa;
+}
+
+/* line 1016, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-path {
+  direction: rtl;
+}
+
+/* line 1020, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fieldset {
+  border: 0 solid #afafaf;
+  border-radius: 3px;
+}
+
+/* line 1025, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fieldset > .mce-container-body {
+  margin-top: -15px;
+}
+
+/* line 1029, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fieldset-title {
+  margin-left: 5px;
+  padding: 0 5px;
+}
+
+/* line 1034, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fit-layout {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 1040, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-fit-layout-item {
+  position: absolute;
+}
+
+/* line 1044, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-flow-layout-item {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 1050, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-flow-layout-item {
+  margin: 2px 0 2px 2px;
+}
+
+/* line 1054, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-flow-layout-item.mce-last {
+  margin-right: 2px;
+}
+
+/* line 1058, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-flow-layout {
+  white-space: normal;
+}
+
+/* line 1062, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tinymce-inline .mce-flow-layout {
+  white-space: nowrap;
+}
+
+/* line 1066, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-flow-layout {
+  text-align: right;
+  direction: rtl;
+}
+
+/* line 1071, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-flow-layout-item {
+  margin: 2px 2px 2px 0;
+}
+
+/* line 1075, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-flow-layout-item.mce-last {
+  margin-left: 2px;
+}
+
+/* line 1079, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-iframe {
+  border: 0 solid #afafaf;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1085, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-label {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  border: 0;
+  overflow: hidden;
+}
+
+/* line 1094, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-label.mce-autoscroll {
+  overflow: auto;
+}
+
+/* line 1098, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-label.mce-disabled {
+  color: #aaa;
+}
+
+/* line 1102, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-label.mce-multiline {
+  white-space: pre-wrap;
+}
+
+/* line 1106, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-label {
+  text-align: right;
+  direction: rtl;
+}
+
+/* line 1111, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubar .mce-menubtn {
+  border-color: transparent;
+  background: transparent;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  filter: none;
+}
+
+/* line 1121, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubar {
+  border: 1px solid #c4c4c4;
+}
+
+/* line 1125, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubar .mce-menubtn button span {
+  color: #333;
+}
+
+/* line 1129, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubar .mce-caret {
+  border-top-color: #333;
+}
+
+/* line 1133, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubar .mce-menubtn.mce-active,
+.mce-menubar .mce-menubtn:focus,
+.mce-menubar .mce-menubtn:hover {
+  border-color: transparent;
+  background: #e6e6e6;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1144, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn.mce-disabled span {
+  color: #aaa;
+}
+
+/* line 1148, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn span {
+  color: #333;
+  margin-right: 2px;
+  line-height: 20px;
+  *line-height: 16px;
+}
+
+/* line 1155, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn.mce-btn-small span {
+  font-size: 12px;
+}
+
+/* line 1159, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn.mce-fixed-width span {
+  display: inline-block;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  width: 90px;
+}
+
+/* line 1166, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn.mce-fixed-width.mce-btn-small span {
+  width: 70px;
+}
+
+/* line 1170, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menubtn .mce-caret {
+  *margin-top: 6px;
+}
+
+/* line 1174, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-menubtn button {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 1179, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-listbox button {
+  text-align: left;
+  padding-right: 20px;
+  position: relative;
+}
+
+/* line 1185, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-listbox .mce-caret {
+  position: absolute;
+  margin-top: -2px;
+  right: 8px;
+  top: 50%;
+}
+
+/* line 1192, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-listbox .mce-caret {
+  right: auto;
+  left: 8px;
+}
+
+/* line 1197, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-listbox button {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+/* line 1202, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item {
+  display: block;
+  padding: 6px 15px 6px 12px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: normal;
+  border-left: 4px solid transparent;
+  margin-bottom: 1px;
+}
+
+/* line 1216, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item .mce-ico,
+.mce-menu-item .mce-text {
+  color: #333;
+}
+
+/* line 1221, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-disabled .mce-ico,
+.mce-menu-item.mce-disabled .mce-text {
+  color: #adadad;
+}
+
+/* line 1226, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-selected .mce-text,
+.mce-menu-item:hover .mce-text {
+  color: #fff;
+}
+
+/* line 1231, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-selected .mce-ico,
+.mce-menu-item:focus .mce-ico,
+.mce-menu-item:hover .mce-ico {
+  color: #fff;
+}
+
+/* line 1237, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-disabled:hover {
+  background: #ccc;
+}
+
+/* line 1241, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-shortcut {
+  display: inline-block;
+  color: #adadad;
+}
+
+/* line 1246, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-shortcut {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 0 15px 0 20px;
+}
+
+/* line 1253, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-selected .mce-menu-shortcut,
+.mce-menu-item:focus .mce-menu-shortcut,
+.mce-menu-item:hover .mce-menu-shortcut {
+  color: #fff;
+}
+
+/* line 1259, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item .mce-caret {
+  margin-top: 4px;
+  *margin-top: 3px;
+  margin-right: 6px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #333;
+}
+
+/* line 1268, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-selected .mce-caret,
+.mce-menu-item:focus .mce-caret,
+.mce-menu-item:hover .mce-caret {
+  border-left-color: #fff;
+}
+
+/* line 1274, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-align .mce-menu-shortcut {
+  *margin-top: -2px;
+}
+
+/* line 1278, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-align .mce-caret,
+.mce-menu-align .mce-menu-shortcut {
+  position: absolute;
+  right: 0;
+}
+
+/* line 1284, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-active i {
+  visibility: visible;
+}
+
+/* line 1288, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item-normal.mce-active {
+  background-color: #e6f0f5;
+}
+
+/* line 1292, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item-preview.mce-active {
+  border-left: 5px solid #aaa;
+}
+
+/* line 1296, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item-normal.mce-active .mce-text {
+  color: #333;
+}
+
+/* line 1300, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item-normal.mce-active:hover .mce-ico,
+.mce-menu-item-normal.mce-active:hover .mce-text {
+  color: #fff;
+}
+
+/* line 1305, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item.mce-selected,
+.mce-menu-item:focus,
+.mce-menu-item:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #e6f0f5;
+}
+
+/* line 1313, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-item-sep:hover,
+div.mce-menu .mce-menu-item-sep {
+  border: 0;
+  padding: 0;
+  height: 1px;
+  margin: 9px 1px;
+  overflow: hidden;
+  background: #cbcbcb;
+  border-bottom: 1px solid #fff;
+  cursor: default;
+  filter: none;
+}
+
+/* line 1326, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-menu-item {
+  text-align: right;
+  direction: rtl;
+  padding: 6px 12px 6px 15px;
+}
+
+/* line 1332, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-align.mce-rtl .mce-caret,
+.mce-menu-align.mce-rtl .mce-menu-shortcut {
+  right: auto;
+  left: 0;
+}
+
+/* line 1338, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-menu-item .mce-caret {
+  margin-left: 6px;
+  margin-right: 0;
+  border-right: 4px solid #333;
+  border-left: 0;
+}
+
+/* line 1345, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-menu-item.mce-selected .mce-caret,
+.mce-rtl .mce-menu-item:focus .mce-caret,
+.mce-rtl .mce-menu-item:hover .mce-caret {
+  border-left-color: transparent;
+  border-right-color: #fff;
+}
+
+/* line 1352, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background: transparent;
+  z-index: 1000;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  min-width: 160px;
+  background: #fff;
+  border: 1px solid #989898;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  z-index: 1002;
+  border-radius: 3px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* line 1373, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu i {
+  display: none;
+}
+
+/* line 1377, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-has-icons i {
+  display: inline-block;
+  *display: inline;
+}
+
+/* line 1382, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-sub-tr-tl {
+  margin: -6px 0 0 -1px;
+}
+
+/* line 1386, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-sub-br-bl {
+  margin: 6px 0 0 -1px;
+}
+
+/* line 1390, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-sub-tl-tr {
+  margin: -6px 0 0 1px;
+}
+
+/* line 1394, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-menu-sub-bl-br {
+  margin: 6px 0 0 1px;
+}
+
+/* line 1398, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container-body .mce-resizehandle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  visibility: visible;
+  cursor: s-resize;
+  margin: 0;
+}
+
+/* line 1409, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-container-body .mce-resizehandle-both {
+  cursor: se-resize;
+}
+
+/* line 1413, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+i.mce-i-resize {
+  color: #333;
+  font-size: 16px;
+}
+
+/* line 1418, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-spacer {
+  visibility: hidden;
+}
+
+/* line 1422, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn .mce-open {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+/* line 1427, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn:hover .mce-open {
+  border-left-color: #bdbdbd;
+  border-right-color: #bdbdbd;
+}
+
+/* line 1432, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn button {
+  padding-right: 4px;
+}
+
+/* line 1436, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn .mce-open {
+  padding-left: 4px;
+}
+
+/* line 1440, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn .mce-open.mce-active {
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 1446, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-splitbtn.mce-btn-small .mce-open {
+  padding: 0 3px;
+}
+
+/* line 1450, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-splitbtn {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 1455, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-splitbtn button {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 1460, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-splitbtn .mce-open {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* line 1465, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-stack-layout-item {
+  display: block;
+}
+
+/* line 1469, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tabs {
+  display: block;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+/* line 1474, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tab {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border: 1px solid #c5c5c5;
+  border-width: 0 1px 0 0;
+  background: #e3e3e3;
+  padding: 8px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  height: 13px;
+  cursor: pointer;
+}
+
+/* line 1487, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tab:hover {
+  background: #fdfdfd;
+}
+
+/* line 1491, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-tab.mce-active {
+  background: #fdfdfd;
+  border-bottom-color: transparent;
+  margin-bottom: -1px;
+  height: 14px;
+}
+
+/* line 1498, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-tabs {
+  text-align: right;
+  direction: rtl;
+}
+
+/* line 1503, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-tab {
+  border-width: 0 0 0 1px;
+}
+
+/* line 1507, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-textbox {
+  background: #fff;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  display: inline-block;
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  height: 28px;
+  resize: none;
+  padding: 0 4px;
+  white-space: pre-wrap;
+  *white-space: pre;
+  color: #333;
+}
+
+/* line 1523, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-textbox.mce-focus,
+.mce-textbox:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.65);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.65);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.65);
+}
+
+/* line 1531, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-placeholder .mce-textbox {
+  color: #aaa;
+}
+
+/* line 1535, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-textbox.mce-multiline {
+  padding: 4px;
+}
+
+/* line 1539, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-textbox.mce-disabled {
+  color: #adadad;
+}
+
+/* line 1543, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-rtl .mce-textbox {
+  text-align: right;
+  direction: rtl;
+}
+
+/* line 1548, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-throbber {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  zoom: 1;
+  background: #fff url("img/loader.gif") no-repeat center center;
+}
+
+@font-face {
+  font-family: 'tinymce';
+  src: url("fonts/tinymce.woff") format("woff"), url("fonts/tinymce.ttf") format("truetype"), url("fonts/tinymce.svg#tinymce") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'tinymce-small';
+  src: url("fonts/tinymce-small.woff") format("woff"), url("fonts/tinymce-small.ttf") format("truetype"), url("fonts/tinymce-small.svg#tinymce") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 1578, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-ico {
+  font-family: 'tinymce', Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: text-top;
+  -webkit-font-smoothing: subpixel-antialiased;
+  display: inline-block;
+  background: transparent center center;
+  width: 16px;
+  height: 16px;
+  color: #333;
+  text-align: center;
+}
+
+/* line 1594, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-btn-small .mce-ico {
+  font-family: 'tinymce-small', Arial;
+}
+
+/* line 1598, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-save:before {
+  content: "\e000";
+}
+
+/* line 1602, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-newdocument:before {
+  content: "\e001";
+}
+
+/* line 1606, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-fullpage:before {
+  content: "\e002";
+}
+
+/* line 1610, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-alignleft:before {
+  content: "\e003";
+}
+
+/* line 1614, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-aligncenter:before {
+  content: "\e004";
+}
+
+/* line 1618, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-alignright:before {
+  content: "\e005";
+}
+
+/* line 1622, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-alignjustify:before {
+  content: "\e006";
+}
+
+/* line 1626, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-alignnone:before {
+  content: "\e003";
+}
+
+/* line 1630, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-cut:before {
+  content: "\e007";
+}
+
+/* line 1634, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-paste:before {
+  content: "\e008";
+}
+
+/* line 1638, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-searchreplace:before {
+  content: "\e009";
+}
+
+/* line 1642, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-bullist:before {
+  content: "\e00a";
+}
+
+/* line 1646, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-numlist:before {
+  content: "\e00b";
+}
+
+/* line 1650, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-indent:before {
+  content: "\e00c";
+}
+
+/* line 1654, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-outdent:before {
+  content: "\e00d";
+}
+
+/* line 1658, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-blockquote:before {
+  content: "\e00e";
+}
+
+/* line 1662, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-undo:before {
+  content: "\e00f";
+}
+
+/* line 1666, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-redo:before {
+  content: "\e010";
+}
+
+/* line 1670, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-link:before {
+  content: "\e011";
+}
+
+/* line 1674, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-unlink:before {
+  content: "\e012";
+}
+
+/* line 1678, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-anchor:before {
+  content: "\e013";
+}
+
+/* line 1682, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-image:before {
+  content: "\e014";
+}
+
+/* line 1686, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-media:before {
+  content: "\e015";
+}
+
+/* line 1690, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-help:before {
+  content: "\e016";
+}
+
+/* line 1694, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-code:before {
+  content: "\e017";
+}
+
+/* line 1698, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-insertdatetime:before {
+  content: "\e018";
+}
+
+/* line 1702, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-preview:before {
+  content: "\e019";
+}
+
+/* line 1706, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-forecolor:before {
+  content: "\e01a";
+}
+
+/* line 1710, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-backcolor:before {
+  content: "\e01a";
+}
+
+/* line 1714, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-table:before {
+  content: "\e01b";
+}
+
+/* line 1718, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-hr:before {
+  content: "\e01c";
+}
+
+/* line 1722, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-removeformat:before {
+  content: "\e01d";
+}
+
+/* line 1726, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-subscript:before {
+  content: "\e01e";
+}
+
+/* line 1730, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-superscript:before {
+  content: "\e01f";
+}
+
+/* line 1734, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-charmap:before {
+  content: "\e020";
+}
+
+/* line 1738, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-emoticons:before {
+  content: "\e021";
+}
+
+/* line 1742, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-print:before {
+  content: "\e022";
+}
+
+/* line 1746, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-fullscreen:before {
+  content: "\e023";
+}
+
+/* line 1750, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-spellchecker:before {
+  content: "\e024";
+}
+
+/* line 1754, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-nonbreaking:before {
+  content: "\e025";
+}
+
+/* line 1758, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-template:before {
+  content: "\e026";
+}
+
+/* line 1762, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-pagebreak:before {
+  content: "\e027";
+}
+
+/* line 1766, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-restoredraft:before {
+  content: "\e028";
+}
+
+/* line 1770, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-bold:before {
+  content: "\e02a";
+}
+
+/* line 1774, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-italic:before {
+  content: "\e02b";
+}
+
+/* line 1778, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-underline:before {
+  content: "\e02c";
+}
+
+/* line 1782, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-strikethrough:before {
+  content: "\e02d";
+}
+
+/* line 1786, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-visualchars:before {
+  content: "\e02e";
+}
+
+/* line 1790, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-visualblocks:before {
+  content: "\e02e";
+}
+
+/* line 1794, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-ltr:before {
+  content: "\e02f";
+}
+
+/* line 1798, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-rtl:before {
+  content: "\e030";
+}
+
+/* line 1802, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-copy:before {
+  content: "\e031";
+}
+
+/* line 1806, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-resize:before {
+  content: "\e032";
+}
+
+/* line 1810, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-browse:before {
+  content: "\e034";
+}
+
+/* line 1814, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-pastetext:before {
+  content: "\e035";
+}
+
+/* line 1818, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-rotateleft:before {
+  content: "\eaa8";
+}
+
+/* line 1822, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-rotateright:before {
+  content: "\eaa9";
+}
+
+/* line 1826, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-crop:before {
+  content: "\ee78";
+}
+
+/* line 1830, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-editimage:before {
+  content: "\e915";
+}
+
+/* line 1834, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-options:before {
+  content: "\ec6a";
+}
+
+/* line 1838, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-flipv:before {
+  content: "\eaaa";
+}
+
+/* line 1842, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-fliph:before {
+  content: "\eaac";
+}
+
+/* line 1846, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-zoomin:before {
+  content: "\eb35";
+}
+
+/* line 1850, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-zoomout:before {
+  content: "\eb36";
+}
+
+/* line 1854, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-sun:before {
+  content: "\eccc";
+}
+
+/* line 1858, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-moon:before {
+  content: "\eccd";
+}
+
+/* line 1862, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowleft:before {
+  content: "\edc0";
+}
+
+/* line 1866, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowright:before {
+  content: "\e93c";
+}
+
+/* line 1870, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-drop:before {
+  content: "\e935";
+}
+
+/* line 1874, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-contrast:before {
+  content: "\ecd4";
+}
+
+/* line 1878, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-sharpen:before {
+  content: "\eba7";
+}
+
+/* line 1882, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-resize2:before {
+  content: "\edf9";
+}
+
+/* line 1886, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-orientation:before {
+  content: "\e601";
+}
+
+/* line 1890, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-invert:before {
+  content: "\e602";
+}
+
+/* line 1894, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-gamma:before {
+  content: "\e600";
+}
+
+/* line 1898, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-remove:before {
+  content: "\ed6a";
+}
+
+/* line 1902, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tablerowprops:before {
+  content: "\e604";
+}
+
+/* line 1906, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tablecellprops:before {
+  content: "\e605";
+}
+
+/* line 1910, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-table2:before {
+  content: "\e606";
+}
+
+/* line 1914, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tablemergecells:before {
+  content: "\e607";
+}
+
+/* line 1918, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tableinsertcolbefore:before {
+  content: "\e608";
+}
+
+/* line 1922, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tableinsertcolafter:before {
+  content: "\e609";
+}
+
+/* line 1926, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tableinsertrowbefore:before {
+  content: "\e60a";
+}
+
+/* line 1930, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tableinsertrowafter:before {
+  content: "\e60b";
+}
+
+/* line 1934, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tablesplitcells:before {
+  content: "\e60d";
+}
+
+/* line 1938, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tabledelete:before {
+  content: "\e60e";
+}
+
+/* line 1942, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tableleftheader:before {
+  content: "\e62a";
+}
+
+/* line 1946, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tabletopheader:before {
+  content: "\e62b";
+}
+
+/* line 1950, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tabledeleterow:before {
+  content: "\e800";
+}
+
+/* line 1954, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-tabledeletecol:before {
+  content: "\e801";
+}
+
+/* line 1958, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-codesample:before {
+  content: "\e603";
+}
+
+/* line 1962, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-fill:before {
+  content: "\e902";
+}
+
+/* line 1966, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-borderwidth:before {
+  content: "\e903";
+}
+
+/* line 1970, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-line:before {
+  content: "\e904";
+}
+
+/* line 1974, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-count:before {
+  content: "\e905";
+}
+
+/* line 1978, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-translate:before {
+  content: "\e907";
+}
+
+/* line 1982, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-drag:before {
+  content: "\e908";
+}
+
+/* line 1986, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-home:before {
+  content: "\e90b";
+}
+
+/* line 1990, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-upload:before {
+  content: "\e914";
+}
+
+/* line 1994, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-bubble:before {
+  content: "\e91c";
+}
+
+/* line 1998, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-user:before {
+  content: "\e91d";
+}
+
+/* line 2002, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-lock:before {
+  content: "\e926";
+}
+
+/* line 2006, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-unlock:before {
+  content: "\e927";
+}
+
+/* line 2010, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-settings:before {
+  content: "\e928";
+}
+
+/* line 2014, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-remove2:before {
+  content: "\e92a";
+}
+
+/* line 2018, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-menu:before {
+  content: "\e92d";
+}
+
+/* line 2022, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-warning:before {
+  content: "\e930";
+}
+
+/* line 2026, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-question:before {
+  content: "\e931";
+}
+
+/* line 2030, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-pluscircle:before {
+  content: "\e932";
+}
+
+/* line 2034, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-info:before {
+  content: "\e933";
+}
+
+/* line 2038, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-notice:before {
+  content: "\e934";
+}
+
+/* line 2042, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowup:before {
+  content: "\e93b";
+}
+
+/* line 2046, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowdown:before {
+  content: "\e93d";
+}
+
+/* line 2050, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowup2:before {
+  content: "\e93f";
+}
+
+/* line 2054, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-arrowdown2:before {
+  content: "\e940";
+}
+
+/* line 2058, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-menu2:before {
+  content: "\e941";
+}
+
+/* line 2062, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-newtab:before {
+  content: "\e961";
+}
+
+/* line 2066, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-a11y:before {
+  content: "\e900";
+}
+
+/* line 2070, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-plus:before {
+  content: "\e93a";
+}
+
+/* line 2074, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-minus:before {
+  content: "\e939";
+}
+
+/* line 2078, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-books:before {
+  content: "\e911";
+}
+
+/* line 2082, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-checkmark:before {
+  content: "\e033";
+}
+
+/* line 2086, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-checkbox:before,
+.mce-i-selected:before {
+  content: "\e033";
+}
+
+/* line 2091, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+.mce-i-selected {
+  visibility: hidden;
+}
+
+/* line 2095, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/tinymce/skins/alchemy/skin.min.css.scss */
+i.mce-i-backcolor {
+  text-shadow: none;
+  background: #bbb;
+}

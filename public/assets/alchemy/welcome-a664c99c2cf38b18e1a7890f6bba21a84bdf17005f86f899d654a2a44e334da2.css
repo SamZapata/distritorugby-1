@@ -1,0 +1,62 @@
+/* line 1, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+body {
+  background: #f2f2f2;
+  color: #7f8c8d;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+/* line 9, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+h3 {
+  color: #34495e;
+  font-family: "Bitter", serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* line 18, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  margin-top: -50px;
+  transform: translateY(-50%) translateX(-300px);
+}
+
+/* line 26, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+ul {
+  line-height: 1.6;
+  margin-bottom: 17px;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0px;
+  list-style-position: outside;
+}
+
+/* line 34, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+li {
+  color: #2980b9;
+  font-weight: 600;
+  margin-bottom: 12px;
+  background-color: none;
+  border-bottom: 0 none;
+  line-height: 22px;
+}
+
+/* line 42, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+a {
+  color: #87ab5a;
+  text-decoration: underline;
+  transition: all 0.1s ease-in-out;
+}
+/* line 47, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy_cms-cd9aa318e933/app/assets/stylesheets/alchemy/welcome.sass */
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}

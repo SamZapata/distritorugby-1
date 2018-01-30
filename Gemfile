@@ -28,8 +28,8 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 
 #Alchemy_cms
-gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
-gem 'alchemy-devise', github: 'AlchemyCMS/alchemy-devise', branch: 'master'
+#gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
+#gem 'alchemy-devise', github: 'AlchemyCMS/alchemy-devise', branch: 'master'
 
 #Spina CMS
 gem 'spina'

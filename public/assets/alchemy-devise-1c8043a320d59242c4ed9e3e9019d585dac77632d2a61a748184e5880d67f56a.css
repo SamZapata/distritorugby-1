@@ -1,0 +1,63 @@
+/* line 1, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/login.scss */
+#logo {
+  width: 240px;
+  height: 70px;
+  margin: 0 0 1em 187px;
+}
+
+/* line 7, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/login.scss */
+.login_signup_box {
+  position: absolute;
+  width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 14, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/login.scss */
+.no-js .login_signup_box {
+  display: none;
+}
+/* line 18, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/login.scss */
+.login_signup_box .message {
+  margin-left: 157px;
+}
+
+/* line 3, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+form.user_roles .checkbox {
+  display: inline-block;
+  width: 50%;
+}
+
+/* line 11, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user {
+  background-position: 0 -104px;
+}
+/* line 14, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user.female {
+  background-position: -128px -104px;
+}
+/* line 19, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user_add {
+  background-position: -96px -104px;
+}
+/* line 23, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user_delete {
+  background-position: -32px -104px;
+}
+/* line 26, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user_delete.female {
+  background-position: -160px -104px;
+}
+/* line 31, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user_edit {
+  background-position: -64px -104px;
+}
+/* line 34, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+.icon.user_edit.female {
+  background-position: -192px -104px;
+}
+
+/* line 40, /home/jsam/.rvm/gems/ruby-2.3.1/bundler/gems/alchemy-devise-3a72f14ba249/app/assets/stylesheets/alchemy-devise/users.scss */
+span.module.users {
+  background-position: -80px 0;
+}
