@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	  <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
@@ -43,12 +43,12 @@
       </div>
     </nav>
 
-  	
+    
   <div class="container">
-	
-	<!-- Panel  -->
-	<div class="row">
-		<header id="header">
+  
+  <!-- Panel  -->
+  <div class="row">
+    <header id="header">
             <div class="container">
                 <div id="mySidenav" class="sidenav-blog">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -73,22 +73,47 @@
                 <span onclick="openNav()" class="pull-left menu-icon" style="color: black">☰</span>
             </div>
         </header>        
-	</div>
+  </div>
 
-	<!-- Vista de las Historias -->
-	<div class="row">
-		<div class="col-xs-12">
-			<p><%= @history.created_at %></p>
-			<h4 class="header-p text-right"> HISTORIAS DE VIDA</h4>
-      <h4 class="header-t text-center"> <%= @history.title %> </h4>
-      <p class="header-p text-center text-justify"> <%= @history.content %> </p>
-		</div>
-    <div class="text-center">
-      <%= link_to 'Editar', edit_history_path(@history) %> |
-      <%= link_to 'Volver', histories_path %>
+  <!-- Vista de las Historias -->
+  <div class="row">
+    <div class="col-xs-12" align="center">      
+      <h4 class="header-t"> Iniciar Sesión</h4>
+
+      <div class="contact-form ">
+
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        
+        <div class="field">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true, autocomplete: "Email" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password %><br />
+          <%= f.password_field :password, autocomplete: "off" %>
+        </div>
+
+        <% if devise_mapping.rememberable? -%>
+          <div class="field">
+            <%= f.check_box :remember_me %>
+            <%= f.label :recordar %>
+          </div>
+        <% end -%>
+
+        <div class="actions">
+          <%= f.submit "Entrar" %>
+        </div>
+      <% end %>
+
+      <%= render "devise/shared/links" %>
+        
+      </div>
+
     </div>
-	</div>
+  </div>
   </div>  
 
 </body>
 </html>
+

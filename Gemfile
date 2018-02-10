@@ -27,6 +27,14 @@ gem 'bootstrap-sass'
 
 gem 'font-awesome-rails'
 
+#Gema Devise para gestionar usuarios
+gem 'devise', '~> 4.2'
+
+#Para identificarse en el sitio con redes sociales
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+
 #Alchemy_cms
 #gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
 #gem 'alchemy-devise', github: 'AlchemyCMS/alchemy-devise', branch: 'master'

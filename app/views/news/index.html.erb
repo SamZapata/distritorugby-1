@@ -59,7 +59,15 @@
                   <a href="#matchs">Competencias Locales (Colombia)</a>
                   <a href="#information">Toolbox</a>
 
-                  <!--<div class="img-thumbnail"></div>-->
+                  <div class="img-thumbnail"></div>
+
+                  <% if user_signed_in?  %>
+                    <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
+                    <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
+                  <% else %>
+                    <a href="/users/sign_up">Registrarse</a>
+                    <a href="/users/sign_in">Iniciar Sesión</a>
+                  <% end %>
                   
                 </div>
                 <!-- Use any element to open the sidenav -->
@@ -99,6 +107,9 @@
 		            </div>     
 		        </tbody>
 		  </table>
+      <div class="text-center">
+        <%= link_to 'Agregar Noticia', new_news_path %>
+      </div>
 		</div>
 	</div>
   	</div>

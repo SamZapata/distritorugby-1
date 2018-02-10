@@ -1,6 +1,7 @@
 
 class NewsController < ApplicationController
-  
+  before_action :set_news, only: [:show, :edit, :update, :destroy]
+
   def index
   	@news = News.all
   end
@@ -24,7 +25,7 @@ class NewsController < ApplicationController
   end
 
   def show
-  	@news = News.find(params[:id])
+  	#@news = News.find(params[:id])
   end
 
   def edit
@@ -40,6 +41,10 @@ class NewsController < ApplicationController
   end
 
   private
+    def set_news
+      @news = News.find(params[:id])
+    end
+
   	def news_params
   		params.require(:news).permit(:title, :content)
   	end

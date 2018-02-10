@@ -1,6 +1,3 @@
-Thanks for downloading this theme!
+Home based on the theme Delicious (https://bootstrapmade.com). 
 
-Theme Name: Delicious
-Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+Pages handmade using bootstrap.

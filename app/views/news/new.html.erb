@@ -43,11 +43,6 @@
 
       </div>
     </nav>
-
-	
-  	<section id="index-blog">
-  	
-  	<div class="container">
 	
 	<!-- Index News  -->
 	<div class="row">
@@ -60,10 +55,16 @@
                   <a href="/histories">Historias de Vida</a>
                   <a href="#matchs">Competencias Locales (Colombia)</a>
                   <a href="#information">Toolbox</a>
-
+                
                   <div class="img-thumbnail"></div>
 
-                  <a href="#new_post">Crear post</a>
+                  <% if user_signed_in?  %>
+                    <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
+                    <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
+                  <% else %>
+                    <a href="/users/sign_up">Registrarse</a>
+                    <a href="/users/sign_in">Iniciar Sesión</a>
+                  <% end %>                  
                   
                 </div>
                 <!-- Use any element to open the sidenav -->
@@ -73,26 +74,46 @@
 	</div>
 
 	<!-- News Board: register news -->
-	<div class="row">
-		<h4 class="header-t text-center">NOTICIAS</h4>
-		<p class="header-p text-center">Siga los pasos según el formulario de registro de noticias</p>
-		
-		<div class="col-xs-12">
-			<section id="register_news">
-        <div class="container text-center">
-          <div class="contact-form">            
-            <%= render 'form', news: @news %> 
+	<div class="container">
+    <% if user_signed_in?%>
+      <h4 class="header-t text-center">NOTICIAS</h4>
+      <p class="header-p text-center">Siga los pasos según el formulario de registro de noticias</p>
+      
+      <div class="col-xs-12">
+        <section id="register_news">
+          <div class="container text-center">
+            <div class="contact-form">            
+              <%= render 'form', news: @news %> 
+            </div>
           </div>
+        </section>
+      </div>
+
+      <%= link_to 'Salir del Editor', @news %> |
+      <%= link_to 'Volver', news_path %>
+
+    <% else %>
+        <div class="row" align="center">
+          <h4 class="header-t text-center">Primero Debes Iniciar Sesión</h4>
+          <div class="container col-md-offset-3 col-md-6 col-md-offset-3">
+            <div class="thumbnail thumbnail-btn">
+                <%= link_to "REGISTRARSE", new_user_registration_path, :class => 'navbar-link' %>
+            </div>
+          </div>
+
+          <div class="container col-md-offset-3 col-md-6 col-md-offset-3" >
+            <div class="thumbnail thumbnail-btn">
+              <a href="/users/sign_in">INICIAR SESIÓN</a>
+            </div>
+          </div>
+        </div>
+        <div align="center"> 
+          <a href="/news">Volver</a>
           
         </div>
-      </section>
-
-      <div></div>
-		</div>
+    <% end %>
+  		
 	</div>
-
-    </div>
-    </section>
 
 </body>
 </html>
