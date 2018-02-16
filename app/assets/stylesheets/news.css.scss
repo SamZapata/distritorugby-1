@@ -1,0 +1,14 @@
+// Place all the styles related to the news controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.bg-news{        
+    //position: absolute;
+    background: url('https://i.pinimg.com/564x/9c/69/df/9c69df61c81de2c656a081512217ed7d.jpg') no-repeat ;
+    //background-size: cover;
+    //background-repeat: no-repeat;
+    //background-color: rgba(221, 221, 221, 0.33);
+    height: 800px;
+    width: 100%;
+    offsetLeft: 100px;
+}

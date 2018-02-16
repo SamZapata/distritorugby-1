@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">
     <link rel="stylesheet" type="text/css" href="stylesheets/events.css.scss">
-    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">    
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/news.css.scss">
 
     <style>
         @import url('https://fonts.googleapis.com/css?family=Rancho&effect=3d');
@@ -26,7 +27,10 @@
         <div class="container">        
           <div class="navbar-header">          
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">DistritoRugby</span>              
+              <span class="sr-only">DistritoRugby</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>           
             </button>
           
             <a class="navbar-brand" href="/home/index.html">
@@ -34,12 +38,25 @@
             </a>
           </div>
 
-          <div class="navbar-header-menu">
-            <a class="navbar-brand header-menu" href="/home/index.html">Inicio</a>
-            <a class="navbar-brand header-menu" href="/events/events.html">Eventos</a>
-            <a class="navbar-brand header-menu" href="/blog/index.html">Blog</a>
-            <a class="navbar-brand header-menu" href="#">Contacto</a>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="navbar-brand header-menu" href="/home/index.html">Inicio</a>
+              </li>
+              <li>
+                <a class="navbar-brand header-menu" href="/events/events.html">Eventos</a>
+              </li>
+              <li>
+                <a class="navbar-brand header-menu" href="/blog/index.html">Blog</a>
+              </li>
+              <li>
+                <a class="navbar-brand header-menu" href="#">Contacto</a>
+              </li>
+            </ul>
           </div>
+          <!--<div class="navbar-header-menu">
+            
+          </div>-->
 
       </div>
     </nav>
@@ -58,7 +75,15 @@
                   <a href="#matchs">Competencias Locales (Colombia)</a>
                   <a href="#information">Toolbox</a>
 
-                  <!--<div class="img-thumbnail"></div>-->
+                  <div class="img-thumbnail"></div>
+
+                  <% if user_signed_in?  %>
+                    <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
+                    <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
+                  <% else %>
+                    <a href="/users/sign_up">Registrarse</a>
+                    <a href="/users/sign_in">Iniciar Sesión</a>
+                  <% end %>
                   
                 </div>
                 <!-- Use any element to open the sidenav -->
@@ -67,10 +92,10 @@
         </header>
     
 
-    <!-- Intro -->
+    <!-- Intro -
     <p class="header-p text-center">
       En este blog podrás encontrar la siguiente información:
-    </p>
+    </p>-->
 
     <!-- Carousel mostrar opciones del blog -->
     <div class="col-sm-8 col-sm-offset-3">
@@ -83,20 +108,32 @@
         </ol>
 
         <div class="carousel-inner text-center">
-          <div class="item active">
-            <a class="header-h" href="/news">Noticias</a>            
+          <div class="item active" align="center">
+            <div class="img-responsive thumbnail">
+              <a class="header-h" href="/news">Noticias</a>
+              <%= image_tag 'https://i.pinimg.com/564x/9c/69/df/9c69df61c81de2c656a081512217ed7d.jpg' %>              
+            </div>
           </div>
 
-          <div class="item">
-            <a class="header-h" href="/histories">Historias</a>
+          <div class="item" align="center">
+            <div class="img-responsive thumbnail">
+            <a class="header-h" href="/histories">Historias de Vida</a>
+            <%= image_tag 'https://i.pinimg.com/564x/fb/c5/c7/fbc5c74629191900a2b20a7f7597db39.jpg'%>
+            </div>
           </div>
 
-          <div class="item">
-            <a class="header-h" href="#">Competencias</a>
+          <div class="item" align="center">
+            <div class="img-responsive thumbnail">
+              <a class="header-h" href="#">Competencias</a>
+              <%= image_tag "https://i0.wp.com/fecorugby.co/FCR/wp-content/uploads/2015/07/11695023_1013572715329984_5165484902243921896_n.jpg?resize=676%2C449" %>
+            </div>
           </div>
 
-          <div class="item">
-            <a class="header-h" href="/#">Toolbox</a>
+          <div class="item" align="center">
+            <div class="img-responsive thumbnail">
+              <a class="header-h" href="/#">Toolbox</a>
+              <%= image_tag 'https://instagram.fclo3-1.fna.fbcdn.net/vp/2df7272c3734d89b17332cd846528814/5B058086/t51.2885-15/e35/27581279_336271483524670_5871184074172792832_n.jpg' %>
+            </div>            
           </div>
         </div>
 
