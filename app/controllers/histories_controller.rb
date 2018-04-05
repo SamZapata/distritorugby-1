@@ -1,6 +1,8 @@
 class HistoriesController < ApplicationController
   before_action :set_history, only: [:show, :edit, :update, :destroy]
 
+  layout 'histories/layoutHistory'
+
   # GET /histories
   # GET /histories.json
   def index
@@ -69,6 +71,6 @@ class HistoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def history_params
-      params.require(:history).permit(:title, :content)
+      params.require(:history).permit(:title, :content, :image)
     end
 end

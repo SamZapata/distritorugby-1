@@ -35,12 +35,25 @@ gem "omniauth"
 gem "omniauth-facebook"
 gem "omniauth-twitter"
 
+#Gem management attachments
+gem 'paperclip', "~> 6.0.0"
+#gema que permite hostear archivos adjuntos con paperclip
+gem 'paperclip-cloudinary'
+
+#Gem cloudinary to show images
+gem 'cloudinary'
+
+gem 'carrierwave'
+
+
 #Alchemy_cms
 #gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: 'master'
 #gem 'alchemy-devise', github: 'AlchemyCMS/alchemy-devise', branch: 'master'
 
 #Spina CMS
-gem 'spina'
+#gem 'spina'
+#Butter CMS for the blog
+#gem 'buttercms-rails'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

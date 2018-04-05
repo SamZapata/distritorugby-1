@@ -1,3 +1,2 @@
-class News < ActiveRecord::Base
-	validates :title, :content, presence: true
+class News < ApplicationRecord
 end

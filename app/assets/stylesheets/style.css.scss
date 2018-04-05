@@ -1,13 +1,12 @@
 /*
-    Basado en: Theme Delicious
-    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+    Basado en: Bootstrap Theme Delicious (bootstrapmade.com)
     
 */
 
 body {
 	font-size: 15px;
     line-height: 1.52;
-    color: #717f86;
+    color: black;
     font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -138,7 +137,7 @@ table {
 {
     color: #fff;
     font-size: 30px;
-    margin-top: 125px;
+    margin-top: 115px;
     cursor: pointer;
 }
 
@@ -455,12 +454,21 @@ table {
 }
 .footer {
     width: 100%;
-    background-color: #222;
+    background-color: #424242;
     position: relative;
-    z-index: 1;
+    left: 0;
+    bottom: 0px;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    color: #717f86;
+    
 }
 .footer a {
     color: #fff;
+}
+
+.footer .socialmedia {
+    font-size: 28px;
 }
 
 .footer .footer-top {
@@ -473,7 +481,7 @@ table {
     letter-spacing: 0.2rem;
     color: #999;
 }
-.footer .widget-title{
+.footer .widget-title {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;

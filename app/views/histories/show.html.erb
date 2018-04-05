@@ -1,111 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-	  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
-    <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">
-    <link rel="stylesheet" type="text/css" href="stylesheets/events.css.scss">
-    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">    
+<!-- Show histories -->
+<div class="container">
+  <div class="row col-xs-offset-1 col-xs-10">
+    <p align="right"></br><%= @history.created_at %></p>
+    <h4 class="heading page-header"> <%= @history.title %> </h4>
+    <p class="header-p text-justify"> <%= simple_format(@history.content) %> </p>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Rancho&effect=3d');
-    </style>
-
-</head>
-
-<body>
-
-    <!-- MENU FIJO -->
-    <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
-        <div class="container">        
-          <div class="navbar-header">          
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">DistritoRugby</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>           
-            </button>
-          
-            <a class="navbar-brand" href="/home/index.html">
-              <%= image_tag "Logo_DR_White.png", :width=>70, :height=>80 %>
-            </a>
-          </div>
-
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="navbar-brand header-menu" href="/home/index.html">Inicio</a>
-              </li>
-              <li>
-                <a class="navbar-brand header-menu" href="/events/events.html">Eventos</a>
-              </li>
-              <li>
-                <a class="navbar-brand header-menu" href="/blog/index.html">Blog</a>
-              </li>
-              <li>
-                <a class="navbar-brand header-menu" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
-          <!--<div class="navbar-header-menu">
-            
-          </div>-->
-
-      </div>
-    </nav>
-
-  	
-  <div class="container">
-	
-	<!-- Panel  -->
-	<div class="row">
-		<header id="header">
-            <div class="container">
-                <div id="mySidenav" class="sidenav-blog">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <h2 class="header-menu" style="color: #1f1f1f">Contenido</h2>
-                  <a href="/news">Noticias</a>
-                  <a href="/histories">Historias de Vida</a>
-                  <a href="#matchs">Competencias Locales (Colombia)</a>
-                  <a href="#information">Toolbox</a>
-
-                  <div class="img-thumbnail"></div>
-
-                  <% if user_signed_in?  %>
-                    <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
-                    <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
-                  <% else %>
-                    <a href="/users/sign_up">Registrarse</a>
-                    <a href="/users/sign_in">Iniciar Sesión</a>
-                  <% end %>
-                  
-                </div>
-                <!-- Use any element to open the sidenav -->
-                <span onclick="openNav()" class="pull-left menu-icon" style="color: black">☰</span>
-            </div>
-        </header>        
-	</div>
-
-	<!-- Vista de las Historias -->
-	<div class="row">
-		<div class="col-xs-12">
-			<p><%= @history.created_at %></p>
-			<h4 class="header-p text-right"> HISTORIAS DE VIDA</h4>
-      <h4 class="header-t text-center"> <%= @history.title %> </h4>
-      <p class="header-p text-center text-justify"> <%= @history.content %> </p>
-		</div>
-    <div class="text-center">
-      <%= link_to 'Editar', edit_history_path(@history) %> |
-      <%= link_to 'Volver', histories_path %>
+    <div class="row thumbnail col-xs-offset-1 col-xs-8">
+      <img class="img-responsive">
+        <%= image_tag @history.image.url%>
+      </img>
     </div>
-	</div>
-  </div>  
+  </div>
 
-</body>
-</html>
+</div>
+
+<div class="container text-center">
+  <%= link_to 'Editar', edit_history_path(@history) %> |
+  <%= link_to 'Volver', histories_path %>
+  </br>
+</div>
