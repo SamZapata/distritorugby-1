@@ -28,7 +28,7 @@
             <p>Añade una imagen</p>
             <%= f.file_field :image %>
             <% if @history.image%>
-              <%= image_tag @history.image.url %>
+              <%= image_tag @history.image.url(:thumb) %>
             <% end %>
             </br>
           </div>
