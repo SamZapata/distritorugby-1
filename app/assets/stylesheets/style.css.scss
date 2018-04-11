@@ -354,8 +354,8 @@ table {
     border-right: 2px solid #841b2d;
 }
 .details-text {
-    background-color: #e0e0e0;
-    border-right: 2px solid #A87F41;
+    background-color: #e0e0ff;
+    border-right: 2px solid blue;
     padding: 20px 20px 30px 30px;
     overflow: auto;
 }
@@ -383,7 +383,7 @@ table {
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 3px;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -391,6 +391,13 @@ table {
 {
     color: #000;
 }
+
+.subtittle-h {
+    font-size: 22px;
+    font-family: 'Gothem', sans-serif;
+    color: #fff;
+}
+
 #Container .mix{
     display: none;
 }

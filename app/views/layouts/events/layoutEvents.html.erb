@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Historias - Distrito Rugby</title>
+  <title>Eventos - Distrito Rugby</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">    
@@ -61,42 +61,8 @@
       </div>
     </nav>
 
-  <section id="index-histories">
-      <div class="container">
-          <!-- MENU DEL BLOG -->
-          <div class="row">
-              <header id="header">
-                  <div class="container">
-                      <div id="mySidenav" class="sidenav-blog">
-                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                          <h2 class="header-menu" style="color: #1f1f1f">Contenido</h2>
-                          <a href="/news">Noticias</a>
-                          <a href="/histories">Historias de Vida</a>
-                          <a href="#matchs">Competencias Locales (Colombia)</a>
-                          <a href="#information">Toolbox</a>
-
-                          <div class="img-thumbnail"></div>
-
-                          <% if user_signed_in?  %>
-                          <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
-                          <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
-                          <% else %>
-                          <a href="/users/sign_up">Registrarse</a>
-                          <a href="/users/sign_in">Iniciar Sesión</a>
-                          <% end %>
-
-                      </div>
-                      <!-- Use any element to open the sidenav -->
-                      <span onclick="openNav()" class="pull-left menu-icon" style="color: black">&#10026;</span>
-                  </div>
-              </header>
-          </div>
-      </div>
-  </section>
-
-    <!-- Histories Board -->
-    <div class="container">
-      <h4 class="header-t text-center">HISTORIAS DE VIDA</h4>
+    <div class="container" style="padding-top: 7em">
+      <h1 class="header-t text-center" style="font-size: 3em">Eventos</br></h1>
     </div>
     <%= yield %>
 
