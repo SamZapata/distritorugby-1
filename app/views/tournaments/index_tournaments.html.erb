@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Historias - Distrito Rugby</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css.scss">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Rancho&effect=3d');
+  </style>
+
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+
+  <!-- MENU FIJO -->
+  <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+    <div class="container">        
+      <div class="navbar-header">          
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">DistritoRugby</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>           
+        </button>
+
+        <a class="navbar-brand" href="/home/index.html">
+          <%= image_tag "Logo_DR_White.png", :width=>70, :height=>80 %>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="navbar-brand header-menu" href="/home/index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="navbar-brand header-menu" href="/events/events.html">Eventos</a>
+          </li>
+          <li>
+            <a class="navbar-brand header-menu" href="/blog/index.html">Blog</a>
+          </li>
+          <li>
+            <a class="navbar-brand header-menu" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      </div>
+    </nav>
+
+  <section id="index-histories">
+      <div class="container">
+          <!-- MENU DEL BLOG -->
+          <div class="row">
+              <header id="header">
+                  <div class="container">
+                      <div id="mySidenav" class="sidenav-blog">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          <h2 class="header-menu" style="color: #1f1f1f">Contenido</h2>
+                          <a href="/news">Noticias</a>
+                          <a href="/histories">Historias de Vida</a>
+                          <a href="/tournaments/index_tournaments.html">Competencias Locales (Colombia)</a>
+                          <a href="#information">Toolbox</a>
+
+                          <div class="img-thumbnail"></div>
+
+                          <% if user_signed_in?  %>
+                          <%= link_to 'Editar Perfil', edit_user_registration_path, :class => 'navbar-link' %>
+                          <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
+                          <% else %>
+                          <a href="/users/sign_up">Registrarse</a>
+                          <a href="/users/sign_in">Iniciar Sesión</a>
+                          <% end %>
+
+                      </div>
+                      <!-- Use any element to open the sidenav -->
+                      <span onclick="openNav()" class="pull-left menu-icon" style="color: black">☰</span>
+                  </div>
+              </header>
+          </div>
+      </div>
+  </section>
+
+    <!-- Tournament Board -->
+    <div class="container">
+      <h4 class="header-t text-center">COMPETENCIAS LOCALES</h4>
+    </div>
+    <div class="container">
+      <h4 class="header-h text-center">En construcción. Espera pronto el lanzamiento de este sitio</h4>
+    </div>
+    <%= yield %>
+
+    
+    <!-- footer -->
+    <footer class="footer text-center">
+        <div class="row">
+            <p>
+            <%= link_to "Inicio", 'https://distritorugby.herokuapp.com/home/index.html',  :class=>"enlace" %> |
+            <%= link_to "Eventos", 'https://distritorugby.herokuapp.com/events/events', :class=>"enlace" %> |
+            <%= link_to "Blog", 'https://distritorugby.herokuapp.com/blog/index.html', :class=>"enlace" %> |
+            <%= link_to "Contacto" %>
+            </p>
+        </div>
+        <div class="row">
+            <p>distritorugby@gmail.com</p>
+        </div>
+
+        <div class="row footer socialmedia">
+            <a href="https://www.facebook.com/distritorugbycali/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/DistritoRugby" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/distritorugby/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <p>By <a href="https://github.com/SamZapata" target="_blank">@samzapata</a> 2018</p>
+    </footer>
+    <!-- Fin Footer -->
+    
+</body>
+</html>
+  
