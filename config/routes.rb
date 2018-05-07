@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  
-  
+
   # scope :module => 'buttercms' do
   #   get '/categories/:slug' => 'categories#show', :as => :buttercms_category
   #   get '/author/:slug' => 'authors#show', :as => :buttercms_author
@@ -27,6 +26,9 @@ Rails.application.routes.draw do
 
   #Rutas para la publicación de Historias de vida
   resources :histories
+
+  #Rutas competencias
+  get 'tournaments/index_tournaments'
   
   #Rutas para la publicación de eventos
   get 'events/events'
